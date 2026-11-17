@@ -1,82 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1error404.html0"
-    />
-    <meta
-      name="description"
-      content="
-      Everything Xander thinks about different topics (Donald Trump, diet, physical activity to stay healthy, hockey, cryptocurrency, and so on) No information is invented Everything comes (or almost) from appropriate documentation."
-    />
-    <title>Xander@</title>
+<html lang="en"><head>
+    <meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.dribbble.com; media-src 'self' https://d21rhj7n383afu.cloudfront.net; frame-src https://youtube.com https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/><meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
 
     <!-- font awesome icons cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet"/>
 
     <!-- swiper slider css file -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
-      integrity="sha512-x9WWODH0qw+aXoiT69XzI4WX2MXpqvVGY+O9HpJ4wbjEubpjDIM5CwTrU/OFJg7tSMbBMpgwz2Qp6xlUsk+FgA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
 
     <!-- custom style css file -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link href="style.css" rel="stylesheet"/>
+  <title>Contact Xander | Xander B.</title><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Contact Xander B. by email. The author of this personal blog is based in Quebec, Canada." name="description"/><meta content="strict-origin-when-cross-origin" name="referrer"/><link href="https://xanderbat1980.github.io/blog-version-2/contactMe.html" rel="canonical"/><meta content="Contact Xander | Xander B." property="og:title"/><meta content="Contact Xander B. by email. The author of this personal blog is based in Quebec, Canada." property="og:description"/><meta content="website" property="og:type"/><meta content="https://xanderbat1980.github.io/blog-version-2/contactMe.html" property="og:url"/><meta content="en_CA" property="og:locale"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "headline": "Contact Xander", "description": "Contact Xander B. by email. The author of this personal blog is based in Quebec, Canada.", "inLanguage": "en", "url": "https://xanderbat1980.github.io/blog-version-2/contactMe.html"}</script></head>
+  <body><a class="skip-link" href="#site-main">Skip to content</a>
     <!-- Header -->
-    <header id="header" class="shadow bg-light">
-      <nav class="container navbar">
-        <a href="/index.html" class="nav-brand text-dark"> Xander@ </a>
+    <header class="shadow bg-light" id="header">
+      <nav aria-label="Main navigation" class="container navbar">
+        <a class="nav-brand text-dark" href="index.html"> Xander@ </a>
 
         <!-- toggle button -->
-        <button class="toggle-button">
-          <span><i class="fas fa-bars"></i></span>
-        </button>
+        <button aria-controls="nav-panel-1 nav-panel-2" aria-expanded="false" aria-label="Menu" class="toggle-button" type="button"><span aria-hidden="true">☰</span></button>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-1">
           <ul class="navbar-nav">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="error404.html" class="nav-link">Blog</a>
-            <a href="error404.html" class="nav-link">Arts</a>
-            <a href="error404.html" class="nav-link">Categories</a>
-            <a href="aboutMe.html" class="nav-link">About</a>
-            <a href="contactMe.html" class="nav-link">Contact</a>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="articles.html">Blog</a></li>
+            <li><a class="nav-link" href="arts.html">Arts</a></li>
+            <li><a class="nav-link" href="categories.html">Categories</a></li>
+            <li><a class="nav-link" href="aboutMe.html">About</a></li>
+            <li><a class="nav-link" href="contactMe.html">Contact</a></li>
           </ul>
         </div>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-2">
           <ul class="navbar-nav">
-            <div class="search-box">
-              <a href="error404.html" class="nav-link"
-                ><i class="fas fa-search"></i
-              ></a>
-            </div>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-dribbble"></i
-            ></a>
+            <li><div class="search-box">
+              <a aria-label="Search articles" class="nav-link" href="search.html"><i aria-hidden="true" class="fas fa-search"></i><span class="search-label">Search</span></a>
+            </div></li>
+            <li><span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span></li>
           </ul>
         </div>
       </nav>
@@ -84,7 +53,7 @@
 
 
     <!-- Main Site -->
-    <main id="site-main">
+    <main id="site-main" tabindex="-1"><p class="site-notice">Certaines images ne sont pas disponibles. Les textes des articles restent accessibles.</p>
       <!-- Post Content -->
       <section class="container">
         <div class="layout-2 row">
@@ -103,84 +72,62 @@
                 </div>
 
                 <div class="meta">
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-                    <i class="fas fa-user text-primary"></i> Xander B.
+                  <a class="link display-2 text-secondary px-1" href="aboutMe.html">
+                    <i aria-hidden="true" class="fas fa-user text-primary"></i> Xander B.
                   </a>
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-                    <i class="fas fa-clock text-primary"></i> Clock Thursday July 14, 2022
-                  </a>
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-            
-                  </a>
+                  <span class="link display-2 text-secondary px-1">
+                    <i aria-hidden="true" class="fas fa-clock text-primary"></i> Clock Thursday July 14, 2022
+                  </span>
+                  <span aria-disabled="true" class="link display-2 text-secondary px-1" data-unavailable-link="" title="Lien non configuré">
+
+                  </span>
                 </div>
               </div>
 
               <!-- thumbnail  -->
               <div class="thumbnail mt-3">
-                <img
-                  src="./Assets/contactMe/contactMe.jpg"
-                  class="thumbnail"
-                  alt=""
-                />
+                <img alt="Image indisponible : contactMe.jpg" class="thumbnail" data-missing-asset="" decoding="async" src="./Assets/contactMe/contactMe.jpg"/>
               </div>
 
               <!-- content -->
               <div class="content text-dark display-2 secondary-title mt-3">
                 <address>
-                <i class="fas fa-map-marker-alt text-primary"></i>
+                <i aria-hidden="true" class="fas fa-map-marker-alt text-primary"></i>
                 I live somewhere in Quebec.., Canada
               </address>
 
               <div class="phone">
-                <i class="fas fa-mobile text-primary"></i>
-                My phone number ?? Try to find it.. (4x8) x5x-xxx6 
+                <i aria-hidden="true" class="fas fa-mobile text-primary"></i>
+                My phone number ?? Try to find it.. (4x8) x5x-xxx6
               </div>
 
-              <div class="email">
-                <i class="fas fa-envelope text-primary"></i>
-                xanderbat@hotmail.com
-              </div>
+              <div class="email"><a href="mailto:xanderbat@hotmail.com">xanderbat@hotmail.com</a></div>
 
         <!-- copyrights  -->
         <div class="copyrights">
           <p class="text-center text-secondary display-2">
             © 2021
-            <a href="error404.html" class="text-primary">Xander B.</a>
+            <a class="text-primary" href="aboutMe.html">Xander B.</a>
             - Personal Blog Theme. All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
+
     <!-- error404.htmlfooter -->
 
     <!-- masonry libray for horizontal grid -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
-      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- swiper slider cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"
-      integrity="sha512-qqdD5ZLIGB5PCqCk1OD8nFBr/ngB5w+Uw35RE/Ivt5DK35xl1PFVkuOgAbqFpvtoxX6MpRGLmIqixzdhFOJhnA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- custom javascript mainerror404.htmljs file -->
-    <script src="main.js"></script>
-  </body>
+    <script defer="" src="main.js"></script>
 
- 
-</html>
+
+
+
+</article></div></div></section></main>
+
+
+</body></html>

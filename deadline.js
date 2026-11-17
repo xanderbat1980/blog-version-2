@@ -1,73 +1,44 @@
-// Init
-var $ = jQuery;
-var animationTime = 20,
-    days = 7;
- 
-$(document).ready(function(){
-
-    // timer arguments: 
-    //   #1 - time of animation in mileseconds, 
-    //   #2 - days to deadline
-
-    $('#progress-time-fill, #death-group').css({'animation-duration': animationTime+'s'});
-
-    var deadlineAnimation = function () {
-        setTimeout(function(){
-            $('#designer-arm-grop').css({'animation-duration': '1.5s'});
-        },0);
-
-        setTimeout(function(){
-            $('#designer-arm-grop').css({'animation-duration': '1s'});
-        },4000);
-
-        setTimeout(function(){
-            $('#designer-arm-grop').css({'animation-duration': '0.7s'});
-        },8000);
-
-        setTimeout(function(){
-            $('#designer-arm-grop').css({'animation-duration': '0.3s'});
-        },12000);
-
-        setTimeout(function(){
-            $('#designer-arm-grop').css({'animation-duration': '0.2s'});
-        },15000);
-    };
-
-    function timer(totalTime, deadline) {
-        var time = totalTime * 1000;
-        var dayDuration = time / deadline;
-        var actualDay = deadline;
-
-        var timer = setInterval(countTime, dayDuration);
-
-        function countTime() {
-            --actualDay;
-            $('.deadline-days .day').text(actualDay);
-
-            if (actualDay == 0) {
-                clearInterval(timer);
-                $('.deadline-days .day').text(deadline);
-            }
-        }
+/* Preserve the animation without jQuery or overlapping repeating timers. */
+(() => {
+  'use strict';
+  const deadline = document.querySelector('#deadline');
+  if (!deadline || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const duration = 20000;
+  const days = 7;
+  const arm = deadline.querySelector('#designer-arm-grop');
+  deadline.querySelectorAll('#progress-time-fill, #death-group').forEach(element => {
+    element.style.animationDuration = `${duration / 1000}s`;
+  });
+  const started = performance.now();
+  let pausedAt = null;
+  let pausedDuration = 0;
+  const control = document.createElement('button');
+  control.type = 'button';
+  control.className = 'deadline-control btn btn-primary';
+  control.textContent = 'Pause animation';
+  control.addEventListener('click', () => {
+    if (pausedAt === null) {
+      pausedAt = performance.now();
+      deadline.dataset.animationPaused = '';
+      control.textContent = 'Resume animation';
+    } else {
+      pausedDuration += performance.now() - pausedAt;
+      pausedAt = null;
+      delete deadline.dataset.animationPaused;
+      control.textContent = 'Pause animation';
     }
-
-    var deadlineText = function () {
-        var $el = $('.deadline-days');
-        var html = '<div class="mask-red"><div class="inner">' + $el.html() + '</div></div><div class="mask-white"><div class="inner">' + $el.html() + '</div></div>';
-        $el.html(html);
+  });
+  document.body.append(control);
+  const update = () => {
+    if (pausedAt !== null) return;
+    const elapsed = (performance.now() - started - pausedDuration) % duration;
+    const remaining = days - Math.floor(elapsed / (duration / days));
+    deadline.querySelectorAll('.deadline-days .day').forEach(day => { day.textContent = remaining; });
+    if (arm) {
+      const speed = elapsed >= 15000 ? 0.2 : elapsed >= 12000 ? 0.3 : elapsed >= 8000 ? 0.7 : elapsed >= 4000 ? 1 : 1.5;
+      arm.style.animationDuration = `${speed}s`;
     }
-
-    deadlineText();
-
-    deadlineAnimation();
-    timer(animationTime, days);
-
-    setInterval(function(){
-        timer(animationTime, days);
-        deadlineAnimation();
-
-        console.log('begin interval', animationTime * 1000);
-
-    }, animationTime * 1000);
-
-});
+  };
+  update();
+  window.setInterval(update, 250);
+})();

@@ -1,0 +1,36 @@
+{
+  "swiper/swiper-bundle.min.js": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js",
+    "sha256": "985f1224c0eeec99d367a9db35e58e44b21e7eb9ce45831b15b4c108e41fd97f"
+  },
+  "swiper/swiper-bundle.min.css": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.css",
+    "sha256": "74ca6aae5468dbc924790c3b4d219a089b90a34bad53a0f7ca3a73e73b6f5ab8"
+  },
+  "swiper/LICENSE": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/LICENSE",
+    "sha256": "99f08e3e3ee0799fe1488fcbcb41dc933b14873e9556693209daf9e1007601d6"
+  },
+  "fontawesome/css/all.min.css": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css",
+    "sha256": "d1fb8d8337cd22568295b0ed998c85c58f0b4cd083af0b0db21cb0af80002f2d",
+    "modification": "Font sources reduced to the bundled WOFF2 files; license header retained.",
+    "distributed_sha256": "4da1425ffcd63eded0c422910143ce3ca77d1a200af35e15e7117761802936b6"
+  },
+  "fontawesome/LICENSE.txt": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/LICENSE.txt",
+    "sha256": "e779748dfe75e84f974df3c7bc07f842011a100159158b0f1f49b2f2a5a515cb"
+  },
+  "fontawesome/webfonts/fa-brands-400.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-brands-400.woff2",
+    "sha256": "529d0a7b3944929222155bca3272ba1a87acc2faa09b2ed26a713872b7ff8794"
+  },
+  "fontawesome/webfonts/fa-regular-400.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-regular-400.woff2",
+    "sha256": "b3b8c21edfe6c5e402fdc607366fd8d15949a65914f58134733dc68922bc8d61"
+  },
+  "fontawesome/webfonts/fa-solid-900.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-solid-900.woff2",
+    "sha256": "6c916669cf923b4f1b2db5c5107c83b6ca205e7ad0dcd840b251e63f0c8d28a2"
+  }
+}

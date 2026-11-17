@@ -1,91 +1,59 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1error404.html0"
-    />
-    <meta
-      name="Welcome to my world!!!Xanderb@"
-      content="
-      Everything Xander thinks about different topics (Donald Trump, diet, physical activity to stay healthy, hockey, cryptocurrency, and so on) No information is invented Everything comes (or almost) from appropriate documentation."
-    />
-    <title>Xander@</title>
+<html lang="fr-CA"><head>
+    <meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.dribbble.com; media-src 'self' https://d21rhj7n383afu.cloudfront.net; frame-src https://youtube.com https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/><meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
 
     <!-- font awesome icons cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet"/>
 
     <!-- swiper slider css file -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
-      integrity="sha512-x9WWODH0qw+aXoiT69XzI4WX2MXpqvVGY+O9HpJ4wbjEubpjDIM5CwTrU/OFJg7tSMbBMpgwz2Qp6xlUsk+FgA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
 
     <!-- custom style css file -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link href="style.css" rel="stylesheet"/>
+  <title>Article 9 — page en préparation | Xander B.</title><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Page de l’article 9 du blogue de Xander B., encore en préparation." name="description"/><meta content="strict-origin-when-cross-origin" name="referrer"/><link href="https://xanderbat1980.github.io/blog-version-2/article9.html" rel="canonical"/><meta content="Article 9 — page en préparation | Xander B." property="og:title"/><meta content="Page de l’article 9 du blogue de Xander B., encore en préparation." property="og:description"/><meta content="website" property="og:type"/><meta content="https://xanderbat1980.github.io/blog-version-2/article9.html" property="og:url"/><meta content="fr_CA" property="og:locale"/><meta content="noindex, follow" name="robots"/></head>
+  <body><a class="skip-link" href="#site-main">Aller au contenu</a>
     <!-- Header -->
-    <header id="header" class="shadow bg-light">
-      <nav class="container navbar">
-        <a href="deadline.html" class="nav-brand text-dark"> Xander@ </a>
+    <header class="shadow bg-light" id="header">
+      <nav aria-label="Navigation principale" class="container navbar">
+        <a class="nav-brand text-dark" href="index.html"> Xander@ </a>
 
         <!-- toggle button -->
-        <button class="toggle-button">
-          <span><i class="fas fa-bars"></i></span>
-        </button>
+        <button aria-controls="nav-panel-1 nav-panel-2" aria-expanded="false" aria-label="Menu" class="toggle-button" type="button"><span aria-hidden="true">☰</span></button>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-1">
           <ul class="navbar-nav">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="error404.html" class="nav-link">Blog</a>
-            <a href="error404.html" class="nav-link">Arts</a>
-            <a href="error404.html" class="nav-link">Categories</a>
-            <a href="aboutMe.html" class="nav-link">About</a>
-            <a href="contactMe.html" class="nav-link">Contact</a>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="articles.html">Blog</a></li>
+            <li><a class="nav-link" href="arts.html">Arts</a></li>
+            <li><a class="nav-link" href="categories.html">Categories</a></li>
+            <li><a class="nav-link" href="aboutMe.html">About</a></li>
+            <li><a class="nav-link" href="contactMe.html">Contact</a></li>
           </ul>
         </div>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-2">
           <ul class="navbar-nav">
-            <div class="search-box">
-              <a href="error404.html" class="nav-link"
-                ><i class="fas fa-search"></i
-              ></a>
-            </div>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-dribbble"></i
-            ></a>
+            <li><div class="search-box">
+              <a aria-label="Rechercher des articles" class="nav-link" href="search.html"><i aria-hidden="true" class="fas fa-search"></i><span class="search-label">Rechercher</span></a>
+            </div></li>
+            <li><span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span></li>
           </ul>
         </div>
       </nav>
     </header>
 
-          
+
           <!-- Main Site -->
-      <main id="site-main">
+      <main id="site-main" tabindex="-1"><p class="site-notice">Certaines images ne sont pas disponibles. Les textes des articles restent accessibles.</p><p class="site-notice">Page en préparation ou de démonstration, conservée pour révision. Son contenu peut être incomplet.</p><h1 class="text-title text-dark display-1 text-center">Article 9 — page en préparation</h1>
 
 
       <!-- Post Content -->
@@ -182,10 +150,10 @@
                   l’affirmation « We need you !!! », Trump lui a répondu, « […]
                   écoutez, je vais vous dires quelque chose. […] Nous allons
                   vous rendre vraiment heureux et nous allons faire ce qui doit
-                  être fait. » Comme s’il était toujours en poste à la Maison Blanche,  
-                  c’est en Floride ce 3 juillet, après l’Ohio et le Texas, que Donald 
-                  Trump continue sa série de meetings. En effet, l’ancien président veut 
-                  retrouver ses supporters dans des évènements qui ressemblent à s’y méprendre, 
+                  être fait. » Comme s’il était toujours en poste à la Maison Blanche,
+                  c’est en Floride ce 3 juillet, après l’Ohio et le Texas, que Donald
+                  Trump continue sa série de meetings. En effet, l’ancien président veut
+                  retrouver ses supporters dans des évènements qui ressemblent à s’y méprendre,
                   à une campagne électorale. Et il a de bonnes raisons de le faire.
                 </p>
 
@@ -193,16 +161,16 @@
                   <h3>Continuer de peser jusqu'en 2024</h3>
                   &#160 &#160 &#160 &#160 &#160 &#160 Donald Trump n'est pas officiellement candidat pour la présidentielle
                   de 2024, mais tout dans son attitude laisse comprendre qu'il le sera.
-                  Dans diverses prises de parole depuis son départ de Washington, le milliardaire 
+                  Dans diverses prises de parole depuis son départ de Washington, le milliardaire
                   sous-entend qu'il compte bien se représenter, sans pour autant le dire clairement.
-                  Une manière de garder l'attention des médias et de ses supporters 
-                  pendant les trois années qui le séparent de l'élection en question. 
-                  Ces meetings sont une nouvelle manière de peser dans le 
+                  Une manière de garder l'attention des médias et de ses supporters
+                  pendant les trois années qui le séparent de l'élection en question.
+                  Ces meetings sont une nouvelle manière de peser dans le
                   débat et de rester visible au niveau de son électorat. En agissant ainsi,
                   il maintient la pression sur les démocrates, tout en empêchant d'autres républicains
                   ambitieux de prendre la lumière et le concurrencer en vue de la primaire de 2024.
-                  Il devrait d'ailleurs profiter de sa tribune ce 3 juillet pour attaquer les «faux 
-                  républicains» qui critiquent son comportement et rejettent les accusations de fraudes électorale.                  
+                  Il devrait d'ailleurs profiter de sa tribune ce 3 juillet pour attaquer les «faux
+                  républicains» qui critiquent son comportement et rejettent les accusations de fraudes électorale.
                 </p>
                 <p>
                   <h3>La campagne des midterms dans le viseurs</h3>
@@ -210,16 +178,16 @@
                   les têtes chez les républicains : les élections de
                   mi-mandat en 2022. Pour les conservateurs, il s'agit
                   d'une occasion en or de reprendre le contrôle
-                  du Sénat et de la chambre des représentants. 
-                  S'ils y parviennent, ils pourraient donc bloquer une majorité 
-                  des lois souhaitées par Joe Biden et avoir ainsi 
-                  un vrai moyen de pression sur le démocrate. 
-                  Donald Trump est parfaitement conscient de ces enjeux. En janvier 
-                  dernier déjà, alors qu'il continuait de revendiquer sa victoire lors de l'élection présidentielle, 
-                  il était venu faire campagne en Géorgie pour soutenir les candidats républicains pour le Sénat. 
+                  du Sénat et de la chambre des représentants.
+                  S'ils y parviennent, ils pourraient donc bloquer une majorité
+                  des lois souhaitées par Joe Biden et avoir ainsi
+                  un vrai moyen de pression sur le démocrate.
+                  Donald Trump est parfaitement conscient de ces enjeux. En janvier
+                  dernier déjà, alors qu'il continuait de revendiquer sa victoire lors de l'élection présidentielle,
+                  il était venu faire campagne en Géorgie pour soutenir les candidats républicains pour le Sénat.
                   Un déplacement qui n'a pas changé le cours des événements puisque les démocrates
                    ont remporté les deux scrutins organisés dans l'Etat, prenant le contrôle de l'institution
-                  d'une très courte avance. Pour autant, sa capacité à rassembler les républicains sera une arme 
+                  d'une très courte avance. Pour autant, sa capacité à rassembler les républicains sera une arme
                   massive dans les élections à venir, et l'homme d'affaires a pleinement connaissance de cette donnée.</p>
 
                 <p>Écrit dans la langue de Molière par <h4><em>Xander B. &copy;</em></h4></p>
@@ -242,69 +210,43 @@
 
             <!-- post footer -->
               <p>
-                <div class="text-center">
-                  <button class="btn btn-primary display-2 text-light mt-2">
-                    <a
-                    href="deadline.html"
-                    ><h4>Next coming soon....</h4></a>
-                  </button>
+                </p><div class="text-center">
+                  <div class="btn btn-primary display-2 text-light mt-2">
+                    <a href="deadline.html"><h4>Next coming soon....</h4></a>
+                  </div>
                 </div>
-              </p>
+              <p></p>
 
 
             <div class="post-footer mb-3">
               <div class="post-tags d-flex flex-wrap justify-content-center">
-                <a href="index.html" class="nav-link btn bg-light"
-                  >About Trump - The True Story</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Crypto / Blockchain</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Health</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Environment</a
-                >
-                <a href="index.html" class="nav-link btn bg-light">Hockey</a>
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Global Economic News</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Political News</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Others various subject</a
-                >
+                <a class="nav-link btn bg-light" href="index.html">About Trump - The True Story</a>
+                <a class="nav-link btn bg-light" href="index.html">Crypto / Blockchain</a>
+                <a class="nav-link btn bg-light" href="index.html">Health</a>
+                <a class="nav-link btn bg-light" href="index.html">Environment</a>
+                <a class="nav-link btn bg-light" href="index.html">Hockey</a>
+                <a class="nav-link btn bg-light" href="index.html">Global Economic News</a>
+                <a class="nav-link btn bg-light" href="index.html">Political News</a>
+                <a class="nav-link btn bg-light" href="index.html">Others various subject</a>
               </div>
 
               <div class="post-author text-center">
                 <div class="author-avatar">
-                  <img src="./Assets/moi2.jpg" class="rounded" alt="" />
+                  <img alt="Image indisponible : moi2.jpg" class="rounded" data-missing-asset="" decoding="async" src="./Assets/moi2.jpg"/>
                 </div>
 
                 <div class="author-info py-2">
                   <h3 class="text-dark">Xander B.</h3>
 
                   <p class="text-secondary secondary-title">
-                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected. 
+                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected.
                   </p>
 
-                  <div
-                    class="post-tags d-flex flex-wrap justify-content-center"
-                  >
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-dribbble"></i
-                    ></a>
+                  <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span>
+                    <span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span>
+                    <span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span>
+                    <span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span>
                   </div>
                 </div>
               </div>
@@ -421,7 +363,7 @@
 
 
 
-                    <!-- comment reply -->
+                    <!— comment reply -->
 
 
   <!--
@@ -468,37 +410,31 @@
 
   -->
 
-                
+
 
         <!-- copyrights  -->
         <div class="copyrights">
           <p class="text-center text-secondary display-2">
             © 2021
-            <a href="error404.html" class="text-primary">Xander B.</a>
+            <a class="text-primary" href="aboutMe.html">Xander B.</a>
             - Personal Blog Theme. All rights reserved.
           </p>
         </div>
       </div>
-    </footer>
+
     <!-- error404.htmlfooter -->
 
     <!-- masonry libray for horizontal grid -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
-      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- swiper slider cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"
-      integrity="sha512-qqdD5ZLIGB5PCqCk1OD8nFBr/ngB5w+Uw35RE/Ivt5DK35xl1PFVkuOgAbqFpvtoxX6MpRGLmIqixzdhFOJhnA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- custom javascript mainerror404.htmljs file -->
-    <script src="main.js"></script>
-  </body>
-</html>
+    <script defer="" src="main.js"></script>
+
+
+</main>
+
+
+</body></html>

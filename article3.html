@@ -1,79 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="
-      Everything Xander thinks about different topics (Donald Trump, diet, physical activity to stay healthy, hockey, cryptocurrency, and so on). No information is invented. Everything comes (or almost) from appropriate documentation."
-    />
-    <title>Xander@</title>
+<html lang="fr-CA"><head>
+    <meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.dribbble.com; media-src 'self' https://d21rhj7n383afu.cloudfront.net; frame-src https://youtube.com https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/><meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
 
     <!-- font awesome icons cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet"/>
 
     <!-- swiper slider css file -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
-      integrity="sha512-x9WWODH0qw+aXoiT69XzI4WX2MXpqvVGY+O9HpJ4wbjEubpjDIM5CwTrU/OFJg7tSMbBMpgwz2Qp6xlUsk+FgA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
     <!-- custom style.css file -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link href="style.css" rel="stylesheet"/>
+  <title>L’environnement et sa capacité de régulation | Xander B.</title><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Réflexions de Xander B. sur la régulation de l’environnement et le rôle des activités humaines." name="description"/><meta content="strict-origin-when-cross-origin" name="referrer"/><link href="https://xanderbat1980.github.io/blog-version-2/article3.html" rel="canonical"/><meta content="L’environnement et sa capacité de régulation | Xander B." property="og:title"/><meta content="Réflexions de Xander B. sur la régulation de l’environnement et le rôle des activités humaines." property="og:description"/><meta content="article" property="og:type"/><meta content="https://xanderbat1980.github.io/blog-version-2/article3.html" property="og:url"/><meta content="fr_CA" property="og:locale"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "L’environnement et sa capacité de régulation", "description": "Réflexions de Xander B. sur la régulation de l’environnement et le rôle des activités humaines.", "inLanguage": "fr-CA", "url": "https://xanderbat1980.github.io/blog-version-2/article3.html", "author": {"@type": "Person", "name": "Xander B.", "url": "https://xanderbat1980.github.io/blog-version-2/aboutMe.html"}}</script></head>
+  <body><a class="skip-link" href="#site-main">Aller au contenu</a>
     <!-- Header -->
-    <header id="header" class="shadow bg-light">
-      <nav class="container navbar">
-        <a href="/index.html" class="nav-brand text-dark"> Xander@ </a>
+    <header class="shadow bg-light" id="header">
+      <nav aria-label="Navigation principale" class="container navbar">
+        <a class="nav-brand text-dark" href="index.html"> Xander@ </a>
 
         <!-- toggle button -->
-        <button class="toggle-button">
-          <span><i class="fas fa-bars"></i></span>
-        </button>
+        <button aria-controls="nav-panel-1 nav-panel-2" aria-expanded="false" aria-label="Menu" class="toggle-button" type="button"><span aria-hidden="true">☰</span></button>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-1">
           <ul class="navbar-nav">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="error404.html" class="nav-link">Blog</a>
-            <a href="error404.html" class="nav-link">Arts</a>
-            <a href="error404.html" class="nav-link">Categories</a>
-            <a href="aboutMe.html" class="nav-link">About</a>
-            <a href="contactMe.html" class="nav-link">Contact</a>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="articles.html">Blog</a></li>
+            <li><a class="nav-link" href="arts.html">Arts</a></li>
+            <li><a class="nav-link" href="categories.html">Categories</a></li>
+            <li><a class="nav-link" href="aboutMe.html">About</a></li>
+            <li><a class="nav-link" href="contactMe.html">Contact</a></li>
           </ul>
         </div>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-2">
           <ul class="navbar-nav">
-            <div class="search-box">
-              <a href="error404.html" class="nav-link"
-                ><i class="fas fa-search"></i
-              ></a>
-            </div>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-dribbble"></i
-            ></a>
+            <li><div class="search-box">
+              <a aria-label="Rechercher des articles" class="nav-link" href="search.html"><i aria-hidden="true" class="fas fa-search"></i><span class="search-label">Rechercher</span></a>
+            </div></li>
+            <li><span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span></li>
           </ul>
         </div>
       </nav>
@@ -81,7 +53,7 @@
     <!-- .Header -->
 
     <!-- Main Site -->
-    <main id="site-main">
+    <main id="site-main" tabindex="-1"><p class="site-notice">Certaines images ne sont pas disponibles. Les textes des articles restent accessibles.</p>
       <!-- Post Content -->
       <section class="container">
         <div class="layout-2 row">
@@ -90,7 +62,7 @@
               <!-- article heading -->
               <div class="headings text-center">
                 <div class="category">
-                  <a href="error404.html" class="nav-link">Environment</a>
+                  <span aria-disabled="true" class="nav-link" data-unavailable-link="" title="Lien non configuré">Environment</span>
                 </div>
 
                 <div class="title">
@@ -100,11 +72,9 @@
                 </div>
 
                 <div class="text-center">
-                  <button class="btn btn-primary display-2 text-light mt-2">
-                    <a
-                    href="deadline.html"
-                    ><h4>Next coming soon....</h4></a>
-                  </button>
+                  <div class="btn btn-primary display-2 text-light mt-2">
+                    <a href="deadline.html"><h4>Next coming soon....</h4></a>
+                  </div>
                 </div>
 
                 <!--
@@ -132,9 +102,9 @@
                 </div>
               </div>
 
-              <!-- thumbnail  -->
+              <!— thumbnail  -->
               <div class="thumbnail mt-3">
-                <img src="./Assets/environment/regeneration.jpg" class="thumbnail" alt="" />
+                <img alt="Image indisponible : regeneration.jpg" class="thumbnail" data-missing-asset="" decoding="async" src="./Assets/environment/regeneration.jpg"/>
               </div>
 
               <!-- content -->
@@ -143,7 +113,7 @@
                 <h3 class="text-title text-center text-dark display-1">
                   Ce que l'on doit faire...
                 </h3>
-                  
+
                 <p>
                   <
                 </p>
@@ -168,7 +138,7 @@
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</Lorem> 
+                    cillum dolore eu fugiat nulla pariatur.</Lorem>
                   </p>
 
                 <p>article written by <h4><em>Xander B. &copy;</em></h4></p>
@@ -176,62 +146,38 @@
               </div>
 
                 -->
-            </article>
+            </div></article>
 
             <!-- post footer -->
             <div class="post-footer mb-3">
               <div class="post-tags d-flex flex-wrap justify-content-center">
-                <a href="index.html" class="nav-link btn bg-light"
-                  >About Trump</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Crypto / Blockchain</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Health</a
-                >
-                <a href="index.html" class="nav-link btn bg-light">Environment</a>
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Global economic news</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Political news</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Hockey</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Computer</a
-                >
+                <a class="nav-link btn bg-light" href="index.html">About Trump</a>
+                <a class="nav-link btn bg-light" href="index.html">Crypto / Blockchain</a>
+                <a class="nav-link btn bg-light" href="index.html">Health</a>
+                <a class="nav-link btn bg-light" href="index.html">Environment</a>
+                <a class="nav-link btn bg-light" href="index.html">Global economic news</a>
+                <a class="nav-link btn bg-light" href="index.html">Political news</a>
+                <a class="nav-link btn bg-light" href="index.html">Hockey</a>
+                <a class="nav-link btn bg-light" href="index.html">Computer</a>
               </div>
 
               <div class="post-author text-center">
                 <div class="author-avatar">
-                  <img src="./Assets/moi2.jpg" class="rounded" alt="" />
+                  <img alt="Image indisponible : moi2.jpg" class="rounded" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/moi2.jpg"/>
                 </div>
 
                 <div class="author-info py-2">
                   <h3 class="text-dark">Xander B.</h3>
 
                   <p class="text-secondary secondary-title">
-                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected. 
+                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected.
                   </p>
 
-                  <div
-                    class="post-tags d-flex flex-wrap justify-content-center"
-                  >
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-dribbble"></i
-                    ></a>
+                  <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span>
+                    <span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span>
+                    <span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span>
+                    <span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span>
                   </div>
                 </div>
               </div>
@@ -241,70 +187,48 @@
                 <div class="row justify-content-center">
                   <div class="prev">
                     <div class="py-2">
-                      <a href="error404.html" class="display-2 text-dark">
-                        <i class="fas fa-chevron-left"></i>
+                      <span aria-disabled="true" class="display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
+                        <i aria-hidden="true" class="fas fa-chevron-left"></i>
                         Previous Post
-                      </a>
+                      </span>
                     </div>
                     <article class="article text-center">
                       <div class="d-flex">
-                        <a href="error404.html">
-                          <img
-                            src="./Assets/running.jpg"
-                            class="object-fit"
-                            alt=""
-                          />
-                        </a>
+                        <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                          <img alt="Image indisponible : running.jpg" class="object-fit" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/running.jpg"/>
+                        </span>
                         <div class="cart-body px-1">
                           <div class="category">
-                            <a
-                              href="error404.html"
-                              class="link text-primary text-secondary"
-                              >Global economic news</a
-                            >
+                            <a class="link text-primary text-secondary" href="article7(criseeconomique).html">Global economic news</a>
                           </div>
-                          <a
-                            href="error404.html"
-                            class="text-title display-1 text-dark"
-                          >
+                          <span aria-disabled="true" class="text-title display-1 text-dark" data-unavailable-link="" title="Lien non configuré">
                             Looking for some feedback for this rejected track
                             technology
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </article>
                   </div>
                   <div class="next text-right">
                     <div class="py-2">
-                      <a href="error404.html" class="display-2 text-dark">
+                      <span aria-disabled="true" class="display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                         Next Post
-                        <i class="fas fa-chevron-right"></i>
-                      </a>
+                        <i aria-hidden="true" class="fas fa-chevron-right"></i>
+                      </span>
                     </div>
                     <article class="article text-center">
                       <div class="d-flex">
-                        <a href="error404.html">
-                          <img
-                            src="./Assets/walk.png"
-                            class="object-fit"
-                            alt=""
-                          />
-                        </a>
+                        <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                          <img alt="Image indisponible : walk.png" class="object-fit" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/walk.png"/>
+                        </span>
                         <div class="cart-body px-1">
                           <div class="category">
-                            <a
-                              href="error404.html"
-                              class="link text-primary text-secondary"
-                              >Global economic news</a
-                            >
+                            <a class="link text-primary text-secondary" href="article7(criseeconomique).html">Global economic news</a>
                           </div>
-                          <a
-                            href="error404.html"
-                            class="text-title display-1 text-dark"
-                          >
+                          <span aria-disabled="true" class="text-title display-1 text-dark" data-unavailable-link="" title="Lien non configuré">
                             Looking for some feedback for this rejected track
                             technology
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </article>
@@ -322,11 +246,7 @@
                   <div class="comment-item py-2">
                     <div class="d-flex">
                       <div class="avatar px-2">
-                        <img
-                          src="./Assets/louisbenoitdobson.jpg"
-                          class="rounded"
-                          alt=""
-                        />
+                        <img alt="Image indisponible : louisbenoitdobson.jpg" class="rounded" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/louisbenoitdobson.jpg"/>
                       </div>
                       <div class="comment-content">
                         <h5 class="display-2 m-0">Louis-Benoit Dobson</h5>
@@ -343,11 +263,7 @@
                     <div class="reply py-2">
                       <div class="d-flex">
                         <div class="avatar px-2">
-                          <img
-                            src="./Assets/emannuelmarcoux.jpg"
-                            class="rounded"
-                            alt=""
-                          />
+                          <img alt="Image indisponible : emannuelmarcoux.jpg" class="rounded" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/emannuelmarcoux.jpg"/>
                         </div>
                         <div class="comment-content">
                           <h5 class="display-2 m-0">Emmanuel Marcoux</h5>
@@ -365,7 +281,7 @@
                   <div class="comment-item py-2">
                     <div class="d-flex">
                       <div class="avatar px-2">
-                        <img src="./Assets/moi.jpg" class="rounded" alt="" />
+                        <img alt="Image indisponible : moi.jpg" class="rounded" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/moi.jpg"/>
                       </div>
                       <div class="comment-content">
                         <h5 class="display-2 m-0">Xander B.</h5>
@@ -386,35 +302,19 @@
 
                 <!-- comment form -->
                 <div class="comment-form">
-                  <h3 class="text-center display-1 secondary-title py-2">
+                  <p class="site-notice">L’envoi de commentaires n’est pas configuré. Aucun message ne sera transmis depuis cette page.</p><h3 class="text-center display-1 secondary-title py-2">
                     Leave Comment
                   </h3>
 
                   <div class="d-flex justify-content-between flex-wrap">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Name"
-                    />
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Email"
-                    />
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Website"
-                    />
+                    <input aria-label="Name" class="form-control" disabled="" placeholder="Name" type="text"/>
+                    <input aria-label="Email" class="form-control" disabled="" placeholder="Email" type="email"/>
+                    <input aria-label="Website" class="form-control" disabled="" placeholder="Website" type="text"/>
                   </div>
 
-                  <textarea
-                    class="form-control mt-3"
-                    placeholder="Message"
-                    rows="10"
-                  ></textarea>
+                  <textarea aria-label="Message" class="form-control mt-3" disabled="" placeholder="Message" rows="10"></textarea>
                   <div class="text-center">
-                    <button class="btn btn-primary display-2 text-light mt-2">
+                    <button class="btn btn-primary display-2 text-light mt-2" disabled="" type="button">
                       Submit
                     </button>
                   </div>
@@ -424,60 +324,39 @@
             <!-- .post footer -->
           </div>
           <div class="col-4">
-            <aside id="sidebar" class="px-1">
+            <aside class="px-1" id="sidebar">
               <!-- categories -->
               <section class="categories">
                 <h2 class="text-center text-dark">Categories</h2>
 
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="article2.html">
                   <span>Crypto / Blockchain</span>
                   <span>5</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="categories.html#sante">
                   <span>Health</span>
                   <span>8</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <span aria-disabled="true" class="d-flex justify-content-between text-dark" data-unavailable-link="" title="Lien non configuré">
                   <span>Environment</span>
                   <span>3</span>
-                </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                </span>
+                <a class="d-flex justify-content-between text-dark" href="article7(criseeconomique).html">
                   <span>Global economic news</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="article5.html">
                   <span>Computer</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="categories.html#politique">
                   <span>Political news</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <span aria-disabled="true" class="d-flex justify-content-between text-dark" data-unavailable-link="" title="Lien non configuré">
                   <span>Hockey</span>
                   <span>2</span>
-                </a>
+                </span>
 
               </section>
 
@@ -489,29 +368,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpcovid19.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Image indisponible : trumpcovid19.jpg" class="rounded px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/Trump/trumpcovid19.jpg"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - Covid-19
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -524,29 +396,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpiran.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Image indisponible : trumpiran.jpg" class="rounded px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/Trump/trumpiran.jpg"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - Iran
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -559,29 +424,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpalena.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Image indisponible : trumpalena.jpg" class="rounded px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/Trump/trumpalena.jpg"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - ALENA
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -594,29 +452,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpotan1.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Image indisponible : trumpotan1.jpg" class="rounded px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/Trump/trumpotan1.jpg"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - NATO (OTAN)
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -635,72 +486,48 @@
       <section class="slider">
         <div class="container">
           <!-- Slider main container -->
-          <div class="swiper-container">
+          <div aria-label="Galerie d’images" class="swiper-container" role="region">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" tabindex="0">
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="article1.html">
-                  <img
-                    src="./Assets/Trump/trump2024.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : trump2024.jpg" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/Trump/trump2024.jpg"/>
                 </a>
               </div>
               <!-- .Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="index.html">
-                  <img
-                    src="./Assets/slider/gasfeeseth.png"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : gasfeeseth.png" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/slider/gasfeeseth.png"/>
                 </a>
               </div>
               <!-- .Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="index.html">
-                  <img
-                    src="./Assets/slider/beautifulHair.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : beautifulHair.jpg" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/slider/beautifulHair.jpg"/>
                 </a>
               </div>
               <!-- .Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="index.html">
-                  <img
-                    src="./Assets/slider/img4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : img4.jpg" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/slider/img4.jpg"/>
                 </a>
               </div>
               <!-- .Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="index.html">
-                  <img
-                    src="./Assets/slider/img5.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : img5.jpg" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/slider/img5.jpg"/>
                 </a>
               </div>
               <!-- .Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="article5.html">
-                  <img
-                    src="./Assets/slider/img6.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Image indisponible : img6.jpg" class="img-fluid" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/slider/img6.jpg"/>
                 </a>
               </div>
               <!-- .Slides -->
@@ -734,17 +561,17 @@
               </p>
 
               <address>
-                <i class="fas fa-map-marker-alt text-primary"></i>
+                <i aria-hidden="true" class="fas fa-map-marker-alt text-primary"></i>
                 Somewhere in Quebec.., Canada
               </address>
 
               <div class="phone">
-                <i class="fas fa-mobile text-primary"></i>
+                <i aria-hidden="true" class="fas fa-mobile text-primary"></i>
                 (xxx) xxx-xxxx
               </div>
 
               <div class="email">
-                <i class="fas fa-envelope text-primary"></i>
+                <i aria-hidden="true" class="fas fa-envelope text-primary"></i>
                 xanderbat@hotmail.com
               </div>
             </div>
@@ -756,84 +583,60 @@
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Image indisponible : breakingnews.jpg" class="object-fit px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/breakingnews.jpg"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Image indisponible : breakingnews.jpg" class="object-fit px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/breakingnews.jpg"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Image indisponible : breakingnews.jpg" class="object-fit px-1" data-missing-asset="" decoding="async" loading="lazy" src="./Assets/breakingnews.jpg"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
@@ -844,28 +647,15 @@
 
             <div class="tags">
               <div class="d-flex flex-wrap">
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >About Trump - The True storie</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Crypto / Blockchai</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Health</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Political News</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Global Economics News</a
-                >
-                <a href="error405.html" class="nav-link btn bg-light"
-                >Other various subjects</a>
+                <a class="nav-link btn bg-light" href="article1.html">About Trump - The True storie</a>
+                <a class="nav-link btn bg-light" href="article2.html">Crypto / Blockchai</a>
+                <a class="nav-link btn bg-light" href="categories.html#sante">Health</a>
+                <a class="nav-link btn bg-light" href="categories.html#politique">Political News</a>
+                <a class="nav-link btn bg-light" href="article7(criseeconomique).html">Global Economics News</a>
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Other various subjects</span>
 
-                <a href="error404.html" class="nav-link btn bg-light">Hockey</a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Computer</a
-                >
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Hockey</span>
+                <a class="nav-link btn bg-light" href="article5.html">Computer</a>
               </div>
             </div>
 
@@ -873,18 +663,10 @@
 
             <div class="tags social">
               <div class="d-flex flex-wrap">
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-dribbble"></i
-                ></a>
+                <span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span>
+                <span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span>
+                <span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span>
+                <span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span>
               </div>
             </div>
           </div>
@@ -893,7 +675,7 @@
         <!-- copyrights  -->
         <div class="copyrights">
           <p class="text-center text-secondary display-2">
-            © 2021 <a href="error404.html" class="text-primary">Xander B.</a> -
+            © 2021 <a class="text-primary" href="aboutMe.html">Xander B.</a> -
             Personal Blog Theme. All rights reserved.
           </p>
         </div>
@@ -902,22 +684,17 @@
     <!-- .footer -->
 
     <!-- masonry libray for horizontal grid -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
-      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- swiper slider cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"
-      integrity="sha512-qqdD5ZLIGB5PCqCk1OD8nFBr/ngB5w+Uw35RE/Ivt5DK35xl1PFVkuOgAbqFpvtoxX6MpRGLmIqixzdhFOJhnA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script defer="" src="vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- custom javascript main.js file -->
-    <script src="main.js"></script>
-  </body>
-</html>
+    <script defer="" src="main.js"></script>
+
+
+
+
+
+
+</body></html>
