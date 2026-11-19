@@ -64,6 +64,17 @@ def check(strict_assets=False):
         if not any(a.get('id') == 'site-main' for a in page.find('main')):
             fail('missing main landmark')
         for tag, attrs in page.tags:
+            if 'data-unavailable-asset' in attrs:
+                original = attrs['data-unavailable-asset']
+                if original not in manifest or attrs.get('data-original-src', '').removeprefix('./') != original:
+                    fail('unrecorded or incorrect unavailable-image placeholder')
+                else:
+                    missing[original] += 1
+                    page_refs.setdefault(original, set()).add(name)
+                if tag == 'img' or not attrs.get('aria-label'):
+                    fail('unavailable source must use a labelled non-image placeholder')
+            if 'data-unavailable-unspecified' in attrs:
+                empty_images += 1
             if 'data-unavailable-link' in attrs:
                 unconfigured += 1
             if tag == 'button' and 'toggle-button' in attrs.get('class', ''):
@@ -75,7 +86,7 @@ def check(strict_assets=False):
             if tag == 'img' and not attrs.get('alt'):
                 fail('image needs an honest text alternative')
             if tag == 'img' and not attrs.get('src'):
-                empty_images += 1
+                fail('active image has no valid source')
             for key in ('href', 'src', 'action'):
                 value = attrs.get(key)
                 if value is None:
@@ -91,10 +102,6 @@ def check(strict_assets=False):
                     continue
                 target = unquote(url.path).removeprefix('./') or name
                 if not (ROOT / target).is_file():
-                    if tag == 'img' and target in manifest and 'data-missing-asset' in attrs:
-                        missing[target] += 1
-                        page_refs.setdefault(target, set()).add(name)
-                        continue
                     fail(f'missing local target {value!r}')
                 elif url.fragment and target.endswith('.html'):
                     target_ids = {a.get('id') for _, a in pages[target].tags}
@@ -150,11 +157,15 @@ def check(strict_assets=False):
         print('\n'.join(errors), file=sys.stderr)
         return 1
     print(f'PASS: {len(pages)} pages; local links, fragments, metadata, image inventory, CSS resources and vendor checksums.')
-    print(f'KNOWN LIMITATION: {len(missing)} absent image paths ({sum(missing.values())} references); article 10 absent.')
-    print(f'KNOWN LIMITATION: {empty_images} image slot(s) without a source URL.')
+    article10 = pages.get('article10.html')
+    if not article10 or not any(a.get('name') == 'robots' and 'noindex' in a.get('content', '') for a in article10.find('meta')):
+        print('Recovered article10 must remain a noindex draft pending author review.', file=sys.stderr)
+        return 1
+    print(f'KNOWN LIMITATION: {len(missing)} unrecovered image sources ({sum(missing.values())} labelled placeholders); article10 recovered as a noindex historical draft.')
+    print(f'KNOWN LIMITATION: {empty_images} unspecified original image slot(s), represented without invalid img elements.')
     print(f'INFO: {unconfigured} unconfigured links are explicitly disabled, not routed to error pages.')
     if strict_assets and (missing or empty_images):
-        print('PUBLICATION BLOCKED: restore the documented images before claiming visual completeness.', file=sys.stderr)
+        print('VISUAL COMPLETENESS BLOCKED: original image files are still unavailable; broken requests were replaced by honest non-image placeholders.', file=sys.stderr)
         return 1
     return 0
 

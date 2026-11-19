@@ -9,6 +9,7 @@ Le site reste statique : aucun serveur PHP, aucune compilation JavaScript et auc
 ## État et documents
 
 - [Rapport d’audit et de corrections](docs/AUDIT.md)
+- [État actuel : enquête complète sur les ressources et article 10](docs/MISSING_ASSET_INVESTIGATION.md)
 - [Restauration visuelle et tests de l’animation Anonymous](docs/VISUAL_RESTORATION.md)
 - [Résultats historiques de la première vérification](docs/VALIDATION.md)
 - [Inventaire des images manquantes](docs/missing-assets.json)
@@ -16,7 +17,8 @@ Le site reste statique : aucun serveur PHP, aucune compilation JavaScript et auc
 - [Titre et description de PR préparés](docs/PULL_REQUEST_DRAFT.md)
 - [Bibliothèques et licences](docs/THIRD_PARTY.md)
 
-**79 images ont été récupérées à leur chemin exact dans le dépôt original, ainsi que les deux GIF déjà utilisés par son thème.** Il reste **12 chemins d’images absents (19 références), un emplacement sans adresse, `background.jpg` et le fichier `article10.html`**. Aucun visuel ni article de remplacement n’a été inventé. L’animation Anonymous d’origine est restaurée sur l’accueil et `article5.html`, avec un fondu de quatre secondes, une commande pour la passer et le respect de la réduction des mouvements. Les liens sociaux inconnus et l’envoi de commentaires restent explicitement non configurés.
+**Les requêtes locales d’images actives sont corrigées ; 81 images originales et les deux GIF du thème sont disponibles.** Trois chemins erronés sont corrigés et l’article 10 est récupéré dans l’historique comme **brouillon à réviser**, sans réécriture inventée. Il reste **neuf sources d’images originales indisponibles (14 emplacements signalés), un emplacement sans image identifiable et `background.jpg` introuvable**. Ces lacunes sont représentées sans requêtes cassées ni élément `<img>` sans source. L’arrière-plan blanc existant est conservé explicitement. Les commentaires et destinations sociales non configurés restent signalés. L’ouverture Anonymous et toutes les corrections techniques sont conservées.
+
 
 ## Vérifier localement
 
@@ -52,6 +54,6 @@ Les URL canoniques, les données structurées, le sitemap et la base du `404.htm
 
 ## Restaurer les contenus réels
 
-Fournir les images aux chemins et à la casse documentés dans `docs/missing-assets.json`. Une image réellement restaurée redevient visible sans changer son adresse dans le HTML. Remplacer ensuite son texte alternatif d’indisponibilité par une description fidèle et compléter ses dimensions réelles. Les deux variantes `Assets/` et `assets/` ne doivent pas être fusionnées sans vérifier les fichiers reçus.
+Fournir les images aux chemins et à la casse documentés dans `docs/missing-assets.json`. Les emplacements des sources encore absentes sont maintenant des éléments textuels avec `data-original-src` : après réception d’une image réelle, rétablir son `<img>` à l’emplacement documenté, fournir une description fidèle et ses dimensions, puis actualiser l’inventaire. Les trois corrections de noms et l’archive de l’article 10 sont documentées dans `docs/asset-resolutions.json`. Les deux variantes `Assets/` et `assets/` ne doivent pas être fusionnées sans vérifier les fichiers reçus.
 
-Pour l’article 10, fournir le texte original avant de créer sa page et de réactiver son lien. Les profils sociaux, les fragments de démonstration et le fonctionnement des commentaires nécessitent également des informations ou une décision du propriétaire.
+L’article 10 est désormais récupéré, lié et disponible en recherche locale, mais reste un brouillon historique en `noindex` : son mélange de sujets et ses sections incomplètes nécessitent une décision éditoriale de l’auteur. Les profils sociaux, les fragments de démonstration et le fonctionnement des commentaires nécessitent également des informations ou une décision du propriétaire.

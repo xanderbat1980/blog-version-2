@@ -1,5 +1,8 @@
 # Restauration de l’identité visuelle — PR #2
 
+**État actuel :** voir [MISSING_ASSET_INVESTIGATION.md](MISSING_ASSET_INVESTIGATION.md) pour les ressources corrigées, l’article 10 récupéré, les lacunes encore réelles et les 19 tests relancés. Le présent document conserve le relevé de l’étape précédente.
+
+
 Réponse au [commentaire du propriétaire](https://github.com/xanderbat1980/blog-version-2/pull/2#issuecomment-7003981440). Travail exclusivement sur `fix/issue-1-audit-pages` dans `blog-version-2` ; aucune nouvelle PR, aucune fusion et aucune activation de GitHub Pages.
 
 ## Référence comparée, en lecture seule

@@ -1,5 +1,8 @@
 # Audit et corrections — issue #1
 
+**Complément courant :** [enquête sur les ressources et article 10](MISSING_ASSET_INVESTIGATION.md), incluant la récupération historique, les corrections de noms et la nouvelle vérification complète.
+
+
 ## Périmètre et état de livraison
 
 Travail exclusivement dans `xanderbat1980/blog-version-2`, sur la branche locale `fix/issue-1-audit-pages`, à partir du commit `ba502d097ffd4fd971ea81f65779852fb6e294cf`. Le dépôt `xanderbat1980/blog` n’avait pas été consulté lors du premier audit. À la demande explicite du propriétaire sur la PR #2, il sert maintenant de référence **en lecture seule** pour la restauration visuelle ; il n’a jamais été modifié.

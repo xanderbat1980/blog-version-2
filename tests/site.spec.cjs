@@ -54,7 +54,7 @@ test('navigation and articles are usable with JavaScript disabled', async ({ bro
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await expect(page.locator('#loader')).toBeHidden();
   await page.goto(baseURL + 'search.html');
-  await expect(page.locator('#search-results li')).toHaveCount(13);
+  await expect(page.locator('#search-results li')).toHaveCount(14);
   await context.close();
 });
 
@@ -70,13 +70,13 @@ test('search handles accents, URL parameters, empty input and no results', async
   await input.fill('zzzznotfound');
   await expect(page.getByRole('status')).toContainText('Aucun article');
   await input.fill('');
-  await expect(page.locator('#search-results li:visible')).toHaveCount(13);
+  await expect(page.locator('#search-results li:visible')).toHaveCount(14);
 });
 
 test('missing content is explicit and restored images load without changing markup', async ({ page }) => {
   await page.goto('index.html');
-  await expect(page.locator('.missing-article-note')).toContainText('article indisponible');
-  await expect(page.locator('a[href="article10.html"]')).toHaveCount(0);
+  await expect(page.locator('.missing-article-note')).toContainText('brouillon historique restauré');
+  await expect(page.locator('a[href="article10.html"]')).toHaveCount(2);
   await page.locator('#footer').scrollIntoViewIfNeeded();
   await expect(page.getByText('Image indisponible : chatGPT1.png', { exact: true })).toBeVisible();
   // Simulate a supplied real file to verify the fallback does not permanently hide restored assets.

@@ -1,19 +1,7 @@
 {
-  "Assets/Trump/trumpcovid19.jpeg": {
-    "pages": [
-      "sidebar.html"
-    ],
-    "references": 1
-  },
   "Assets/article12/bodybuildingPlanDiet.png": {
     "pages": [
       "article12.html"
-    ],
-    "references": 1
-  },
-  "Assets/article5/trumpFbiMaralago.jpg": {
-    "pages": [
-      "article5.html"
     ],
     "references": 1
   },
@@ -69,13 +57,5 @@
       "theRealEstateBubble.html"
     ],
     "references": 4
-  },
-  "assets/breakingnews.jpg": {
-    "pages": [
-      "aVif.html",
-      "article2(gasfeeseth).html",
-      "article2.html"
-    ],
-    "references": 3
   }
 }

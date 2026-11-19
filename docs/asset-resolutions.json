@@ -1,0 +1,173 @@
+{
+  "reference_repository": "xanderbat1980/blog",
+  "current_reference_commit": "20ccee967261fb92f374ad68cdfafa06427c912f",
+  "search": {
+    "reachable_commits": 51,
+    "distinct_recursive_trees": 24,
+    "truncated_trees": 0,
+    "branches": [
+      "main"
+    ],
+    "tags": [],
+    "complete_to_initial_commit": true
+  },
+  "images": [
+    {
+      "requested": "Assets/Trump/trumpcovid19.jpeg",
+      "pages": [
+        "sidebar.html"
+      ],
+      "references": 1,
+      "status": "corrected-path",
+      "resolved_path": "Assets/Trump/trumpcovid19.jpg",
+      "evidence": "Extension mismatch: original .jpg exists and the card explicitly says About Trump - Covid-19."
+    },
+    {
+      "requested": "Assets/article12/bodybuildingPlanDiet.png",
+      "pages": [
+        "article12.html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/article5/trumpFbiMaralago.jpg",
+      "pages": [
+        "article5.html"
+      ],
+      "references": 1,
+      "status": "corrected-path",
+      "resolved_path": "Assets/article5/trumpFBIMaralago.jpg",
+      "evidence": "Case-only mismatch against the original tracked filename trumpFBIMaralago.jpg."
+    },
+    {
+      "requested": "Assets/article7(criseeconomique)/thirdWorldWar.jpg",
+      "pages": [
+        "article7(criseeconomique).html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/comments/vanessa.jpg",
+      "pages": [
+        "article2.html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/featurePost/asteroidImpact.jpg",
+      "pages": [
+        "index.html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/featurePost/chatGPT1.png",
+      "pages": [
+        "index.html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/hockey/31.jpg",
+      "pages": [
+        "article2(gasfeeseth).html"
+      ],
+      "references": 1,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/slider/img1.jpg",
+      "pages": [
+        "sidebar.html",
+        "theRealEstateBubble.html"
+      ],
+      "references": 2,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/slider/img2.jpg",
+      "pages": [
+        "article7(criseeconomique).html",
+        "sidebar.html"
+      ],
+      "references": 2,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "Assets/slider/img3.png",
+      "pages": [
+        "aVif.html",
+        "article7(criseeconomique).html",
+        "sidebar.html",
+        "theRealEstateBubble.html"
+      ],
+      "references": 4,
+      "status": "unrecoverable-source",
+      "representation": "labelled non-image placeholder; no src request",
+      "evidence": "No exact file exists in any of the 24 recursive trees across all 51 reachable commits. No authoritative mapping to another image was found."
+    },
+    {
+      "requested": "assets/breakingnews.jpg",
+      "pages": [
+        "aVif.html",
+        "article2(gasfeeseth).html",
+        "article2.html"
+      ],
+      "references": 3,
+      "status": "corrected-path",
+      "resolved_path": "Assets/breakingnews.jpg",
+      "evidence": "Case-only directory mismatch against the original tracked Assets/breakingnews.jpg."
+    }
+  ],
+  "additional_path_corrections": [
+    {
+      "requested": "Assets/movies&Series/marvelVsDccomics.jpg",
+      "resolved_path": "Assets/article12/marvelVsDccomics.jpg",
+      "evidence": "Recovered article title and exact image basename match; the original tracked image was visually verified as Marvel vs DC, under Assets/article12/."
+    }
+  ],
+  "empty_image": {
+    "page": "aVif.html",
+    "status": "unrecoverable-source",
+    "representation": "labelled non-image placeholder",
+    "evidence": "The sole aVif.html blob across the full history already has an empty image source. No intended filename or subject is given."
+  },
+  "background": {
+    "requested": "background.jpg",
+    "status": "unrecoverable-source",
+    "representation": "explicit original white CSS fallback; no url(background.jpg)",
+    "evidence": "No background.jpg exists anywhere in the complete reachable history, branches or tags. No replacement image was invented."
+  },
+  "article10": {
+    "source": "https://raw.githubusercontent.com/xanderbat1980/blog/87b4567822ebd0f16288f857e16afb3fdd2a26e7/article10.html",
+    "source_commit": "87b4567822ebd0f16288f857e16afb3fdd2a26e7",
+    "git_blob_sha": "c16a98d046f64365f101a437434d1c45452c348f",
+    "sha256": "c2f0df300904da5fc2c15cdff748998c2179e622d82ae85c9aab16ae06340fd0",
+    "status": "recovered-historical-draft",
+    "path": "article10.html",
+    "deleted_by": "d38fb2130ebc8e54f44c61df28db49dc05ec332a",
+    "indexing": "noindex, follow",
+    "editorial_review_required": true
+  }
+}

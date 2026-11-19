@@ -568,12 +568,24 @@
       "source_reference": "style.css at 20ccee967261fb92f374ad68cdfafa06427c912f",
       "sha256": "354f63f88b57aceea4536df0c0cff0c3592aa46fe887ff910751fefc12f3e76c",
       "bytes": 1373645
+    },
+    {
+      "path": "Assets/article5/trumpFBIMaralago.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/trumpFBIMaralago.jpg",
+      "git_blob_sha": "6cf9fd9db853fbd07b5cd390ad3478c8874e8e26",
+      "sha256": "035e2e5bb22944e9ab380b703c250246bfaa099b4cc65e6470fb7036e2a25afa",
+      "bytes": 19225
+    },
+    {
+      "path": "Assets/article12/marvelVsDccomics.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article12/marvelVsDccomics.jpg",
+      "git_blob_sha": "ee8f99ce4b7b6efe445724ef54a42eb11550ea60",
+      "sha256": "02c1f29589fab17a6cc81639ce6d0f6993b3f3cb00ed822ff4cad178ac6e755b",
+      "bytes": 163922
     }
   ],
   "still_missing": [
-    "Assets/Trump/trumpcovid19.jpeg",
     "Assets/article12/bodybuildingPlanDiet.png",
-    "Assets/article5/trumpFbiMaralago.jpg",
     "Assets/article7(criseeconomique)/thirdWorldWar.jpg",
     "Assets/comments/vanessa.jpg",
     "Assets/featurePost/asteroidImpact.jpg",
@@ -581,8 +593,7 @@
     "Assets/hockey/31.jpg",
     "Assets/slider/img1.jpg",
     "Assets/slider/img2.jpg",
-    "Assets/slider/img3.png",
-    "assets/breakingnews.jpg"
+    "Assets/slider/img3.png"
   ],
   "missing_background": "background.jpg"
 }
