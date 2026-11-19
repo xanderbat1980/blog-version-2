@@ -1,0 +1,372 @@
+[
+  {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "externalResources": "blocked",
+    "samples": [
+      {
+        "elapsed": 0,
+        "opacity": 1
+      },
+      {
+        "elapsed": 242,
+        "opacity": 1
+      },
+      {
+        "elapsed": 329,
+        "opacity": 1
+      },
+      {
+        "elapsed": 429,
+        "opacity": 1
+      },
+      {
+        "elapsed": 529,
+        "opacity": 1
+      },
+      {
+        "elapsed": 629,
+        "opacity": 1
+      },
+      {
+        "elapsed": 701,
+        "opacity": 1
+      },
+      {
+        "elapsed": 801,
+        "opacity": 0.990744
+      },
+      {
+        "elapsed": 901,
+        "opacity": 0.962967
+      },
+      {
+        "elapsed": 1001,
+        "opacity": 0.935189
+      },
+      {
+        "elapsed": 1101,
+        "opacity": 0.907439
+      },
+      {
+        "elapsed": 1201,
+        "opacity": 0.879633
+      },
+      {
+        "elapsed": 1301,
+        "opacity": 0.851883
+      },
+      {
+        "elapsed": 1401,
+        "opacity": 0.824106
+      },
+      {
+        "elapsed": 1501,
+        "opacity": 0.7963
+      },
+      {
+        "elapsed": 1601,
+        "opacity": 0.768522
+      },
+      {
+        "elapsed": 1701,
+        "opacity": 0.740772
+      },
+      {
+        "elapsed": 1801,
+        "opacity": 0.712967
+      },
+      {
+        "elapsed": 1901,
+        "opacity": 0.685189
+      },
+      {
+        "elapsed": 2001,
+        "opacity": 0.657439
+      },
+      {
+        "elapsed": 2101,
+        "opacity": 0.629661
+      },
+      {
+        "elapsed": 2201,
+        "opacity": 0.601883
+      },
+      {
+        "elapsed": 2301,
+        "opacity": 0.574078
+      },
+      {
+        "elapsed": 2434,
+        "opacity": 0.555578
+      },
+      {
+        "elapsed": 2501,
+        "opacity": 0.523161
+      },
+      {
+        "elapsed": 2601,
+        "opacity": 0.490772
+      },
+      {
+        "elapsed": 2701,
+        "opacity": 0.462994
+      },
+      {
+        "elapsed": 2801,
+        "opacity": 0.435217
+      },
+      {
+        "elapsed": 2901,
+        "opacity": 0.407439
+      },
+      {
+        "elapsed": 3001,
+        "opacity": 0.379661
+      },
+      {
+        "elapsed": 3101,
+        "opacity": 0.351883
+      },
+      {
+        "elapsed": 3201,
+        "opacity": 0.324106
+      },
+      {
+        "elapsed": 3301,
+        "opacity": 0.296328
+      },
+      {
+        "elapsed": 3401,
+        "opacity": 0.26855
+      },
+      {
+        "elapsed": 3501,
+        "opacity": 0.240772
+      },
+      {
+        "elapsed": 3601,
+        "opacity": 0.212994
+      },
+      {
+        "elapsed": 3701,
+        "opacity": 0.185244
+      },
+      {
+        "elapsed": 3803,
+        "opacity": 0.157439
+      },
+      {
+        "elapsed": 3901,
+        "opacity": 0.129689
+      },
+      {
+        "elapsed": 4001,
+        "opacity": 0.101883
+      },
+      {
+        "elapsed": 4101,
+        "opacity": 0.0741333
+      },
+      {
+        "elapsed": 4201,
+        "opacity": 0.0463278
+      },
+      {
+        "elapsed": 4301,
+        "opacity": 0.01855
+      },
+      {
+        "elapsed": 4401,
+        "removed": true
+      }
+    ]
+  },
+  {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "externalResources": "blocked",
+    "samples": [
+      {
+        "elapsed": 0,
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "opacity": 1
+      },
+      {
+        "elapsed": 405,
+        "opacity": 1
+      },
+      {
+        "elapsed": 504,
+        "opacity": 1
+      },
+      {
+        "elapsed": 604,
+        "opacity": 1
+      },
+      {
+        "elapsed": 704,
+        "opacity": 1
+      },
+      {
+        "elapsed": 804,
+        "opacity": 1
+      },
+      {
+        "elapsed": 906,
+        "opacity": 0.990751
+      },
+      {
+        "elapsed": 1006,
+        "opacity": 0.949085
+      },
+      {
+        "elapsed": 1104,
+        "opacity": 0.930557
+      },
+      {
+        "elapsed": 1209,
+        "opacity": 0.902779
+      },
+      {
+        "elapsed": 1307,
+        "opacity": 0.865751
+      },
+      {
+        "elapsed": 1405,
+        "opacity": 0.847224
+      },
+      {
+        "elapsed": 1504,
+        "opacity": 0.833335
+      },
+      {
+        "elapsed": 1604,
+        "opacity": 0.796307
+      },
+      {
+        "elapsed": 1709,
+        "opacity": 0.75464
+      },
+      {
+        "elapsed": 1804,
+        "opacity": 0.736112
+      },
+      {
+        "elapsed": 1904,
+        "opacity": 0.699085
+      },
+      {
+        "elapsed": 2004,
+        "opacity": 0.680585
+      },
+      {
+        "elapsed": 2104,
+        "opacity": 0.657418
+      },
+      {
+        "elapsed": 2204,
+        "opacity": 0.615751
+      },
+      {
+        "elapsed": 2304,
+        "opacity": 0.587974
+      },
+      {
+        "elapsed": 2404,
+        "opacity": 0.560224
+      },
+      {
+        "elapsed": 2504,
+        "opacity": 0.532446
+      },
+      {
+        "elapsed": 2605,
+        "opacity": 0.523168
+      },
+      {
+        "elapsed": 2704,
+        "opacity": 0.490751
+      },
+      {
+        "elapsed": 2804,
+        "opacity": 0.458362
+      },
+      {
+        "elapsed": 2904,
+        "opacity": 0.439835
+      },
+      {
+        "elapsed": 3004,
+        "opacity": 0.412057
+      },
+      {
+        "elapsed": 3106,
+        "opacity": 0.365751
+      },
+      {
+        "elapsed": 3204,
+        "opacity": 0.35189
+      },
+      {
+        "elapsed": 3304,
+        "opacity": 0.324085
+      },
+      {
+        "elapsed": 3404,
+        "opacity": 0.305613
+      },
+      {
+        "elapsed": 3504,
+        "opacity": 0.273196
+      },
+      {
+        "elapsed": 3604,
+        "opacity": 0.245418
+      },
+      {
+        "elapsed": 3705,
+        "opacity": 0.21764
+      },
+      {
+        "elapsed": 3804,
+        "opacity": 0.180585
+      },
+      {
+        "elapsed": 3906,
+        "opacity": 0.143557
+      },
+      {
+        "elapsed": 4004,
+        "opacity": 0.125029
+      },
+      {
+        "elapsed": 4104,
+        "opacity": 0.10189
+      },
+      {
+        "elapsed": 4204,
+        "opacity": 0.0741403
+      },
+      {
+        "elapsed": 4304,
+        "opacity": 0.0463347
+      },
+      {
+        "elapsed": 4404,
+        "opacity": 0.00466806
+      },
+      {
+        "elapsed": 4504,
+        "removed": true
+      }
+    ]
+  }
+]

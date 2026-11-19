@@ -17,6 +17,16 @@ body {
     background: #000;
 }
 
+#site-main { margin-top: 0; }
+#site-main > h1 { color: #fff; font-size: 1.25rem; text-align: center; }
+.deadline-back { position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%); color: #fff; text-decoration: underline; text-align: center; }
+.deadline-control { position: fixed; bottom: 5rem; left: 50%; transform: translateX(-50%); }
+#deadline[data-animation-paused] * { animation-play-state: paused !important; }
+
+@media (prefers-reduced-motion: reduce) {
+    #deadline * { animation: none !important; }
+}
+
 
 #deadline {
     width:581px;
@@ -143,7 +153,7 @@ body {
     }
     10% {
         transform: translateX(100px);
-    },
+    }
 
     15% {
         transform: translateX(140px);

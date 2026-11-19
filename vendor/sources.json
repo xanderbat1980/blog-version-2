@@ -1,0 +1,71 @@
+{
+  "swiper/swiper-bundle.min.js": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js",
+    "sha256": "985f1224c0eeec99d367a9db35e58e44b21e7eb9ce45831b15b4c108e41fd97f"
+  },
+  "swiper/swiper-bundle.min.css": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.css",
+    "sha256": "74ca6aae5468dbc924790c3b4d219a089b90a34bad53a0f7ca3a73e73b6f5ab8"
+  },
+  "swiper/LICENSE": {
+    "source": "https://cdn.jsdelivr.net/npm/swiper@11.2.10/LICENSE",
+    "sha256": "99f08e3e3ee0799fe1488fcbcb41dc933b14873e9556693209daf9e1007601d6"
+  },
+  "fontawesome/css/all.min.css": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css",
+    "sha256": "d1fb8d8337cd22568295b0ed998c85c58f0b4cd083af0b0db21cb0af80002f2d",
+    "modification": "Font sources reduced to the bundled WOFF2 files; license header retained.",
+    "distributed_sha256": "4da1425ffcd63eded0c422910143ce3ca77d1a200af35e15e7117761802936b6"
+  },
+  "fontawesome/LICENSE.txt": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/LICENSE.txt",
+    "sha256": "e779748dfe75e84f974df3c7bc07f842011a100159158b0f1f49b2f2a5a515cb"
+  },
+  "fontawesome/webfonts/fa-brands-400.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-brands-400.woff2",
+    "sha256": "529d0a7b3944929222155bca3272ba1a87acc2faa09b2ed26a713872b7ff8794"
+  },
+  "fontawesome/webfonts/fa-regular-400.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-regular-400.woff2",
+    "sha256": "b3b8c21edfe6c5e402fdc607366fd8d15949a65914f58134733dc68922bc8d61"
+  },
+  "fontawesome/webfonts/fa-solid-900.woff2": {
+    "source": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/webfonts/fa-solid-900.woff2",
+    "sha256": "6c916669cf923b4f1b2db5c5107c83b6ca205e7ad0dcd840b251e63f0c8d28a2"
+  },
+  "google-fonts/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf": {
+    "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf",
+    "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+  },
+  "google-fonts/pxiEyp8kv8JHgFVrFJA.ttf": {
+    "source": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJA.ttf",
+    "sha256": "cdedb1729acac414ed01744a11da7badb86adf13108e7bd3fa161b9323f7fe54"
+  },
+  "google-fonts/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf": {
+    "source": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf",
+    "sha256": "dece7c71bbe61710787f0839c722c65e87355dd2eb4a823e6b5488121ff81e4b"
+  },
+  "google-fonts/fonts.css": {
+    "source": "https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap",
+    "sha256": "7c852916030cbdef99f032e15e5d891a3f99ef3e29e2360ff522fe1d885295fb",
+    "modification": "Only font URLs rewritten to local files."
+  },
+  "google-fonts/dmsans-OFL.txt": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "distributed_sha256": "7ec15e79c59bc14b86436a17e5eb7926b46cbcaeb08e1a7e6c110b415e6eb2a2",
+    "modification": "Line endings and trailing whitespace normalized; license wording unchanged."
+  },
+  "google-fonts/poppins-OFL.txt": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/OFL.txt",
+    "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573",
+    "distributed_sha256": "8503c30a4d7e09c4c09015fee42f829f18acbe6330755e9930ba50ea44eaa157",
+    "modification": "Line endings and trailing whitespace normalized; license wording unchanged."
+  },
+  "google-fonts/roboto-OFL.txt": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/OFL.txt",
+    "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "distributed_sha256": "ee94f8704aa81e9a3bf4271e8320e99d975a3ee08ea45a088b494b918476ec12",
+    "modification": "Line endings and trailing whitespace normalized; license wording unchanged."
+  }
+}

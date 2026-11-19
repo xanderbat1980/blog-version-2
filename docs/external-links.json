@@ -1,0 +1,510 @@
+{
+  "checked_at_utc": "2026-11-17T09:14:14.405103+00:00",
+  "note": "HEAD checks are evidence of transport availability only, not a verification of article content. Anti-bot blocks and timeouts do not prove links broken. Source references have been retained.",
+  "summary": {
+    "unverified-http-response": 6,
+    "reachable": 38,
+    "remote-not-found": 1,
+    "unverified-network-error": 5
+  },
+  "links": [
+    {
+      "url": "https://aacrjournals.org/cebp/article/25/4/634/70984/Coffee-Consumption-and-the-Risk-of-Colorectal?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 403,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://bmccancer.biomedcentral.com/articles/10.1186/1471-2407-11-96?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/1471-2407-11-96?itid=lk_inline_enhanced-template&error=cookies_not_supported&code=8786d63b-58fc-4e12-905a-23d52e033238",
+      "result": "reachable"
+    },
+    {
+      "url": "https://bmccancer.biomedcentral.com/articles/10.1186/s12885-020-6561-9?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s12885-020-6561-9?itid=lk_inline_enhanced-template&error=cookies_not_supported&code=d16c38f8-d72a-41ac-9b8b-59b672f8cbb5",
+      "result": "reachable"
+    },
+    {
+      "url": "https://bmjopen.bmj.com/content/11/2/e038902?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 429,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://cneos.jpl.nasa.gov/sentry/",
+      "pages": [
+        "index.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://cneos.jpl.nasa.gov/sentry/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_the_January_6_Attack",
+      "pages": [
+        "article5.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_the_January_6_Attack",
+      "result": "reachable"
+    },
+    {
+      "url": "https://ethereum.org/en/developers/docs/gas/?fbclid=IwAR1P0FdBlq7NY_kys35Px1yCnVeRyI8RQY1pHMXx_nMZ_UdgrtP4FxHEN6k",
+      "pages": [
+        "article2(gasfeeseth).html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://ethereum.org/developers/docs/gas/?fbclid=IwAR1P0FdBlq7NY_kys35Px1yCnVeRyI8RQY1pHMXx_nMZ_UdgrtP4FxHEN6k",
+      "result": "reachable"
+    },
+    {
+      "url": "https://ethereum.org/en/what-is-ethereum/#main-content",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://ethereum.org/what-is-ethereum/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://globalnews.ca/news/7917233/donald-trump-president-2025-us-election/",
+      "pages": [
+        "article11.html",
+        "article12.html",
+        "testPage.html",
+        "theRealEstateBubble.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://globalnews.ca/news/7917233/donald-trump-president-2025-us-election/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://openai.com/blog/chatgpt",
+      "pages": [
+        "index.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://openai.com/index/chatgpt/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10823400/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/10823400/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17295507/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/17295507/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20570908/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/20570908/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25637171/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/25637171/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27111112/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/27111112/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/jf802418j",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 403,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://tenor.com/search/ymca-gifs",
+      "pages": [
+        "article1.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://tenor.com/search/ymca-gifs",
+      "result": "reachable"
+    },
+    {
+      "url": "https://tenor.com/view/ymca-trump-dance-gif-19059230",
+      "pages": [
+        "article1.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://tenor.com/view/ymca-trump-dance-gif-19059230",
+      "result": "reachable"
+    },
+    {
+      "url": "https://truthsocial.com/",
+      "pages": [
+        "index.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://truthsocial.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ab-consulting.fr/blog/blockchain/blockchain-fonctionnement-en-7-etapes",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.ab-consulting.fr/blog/blockchain/blockchain-fonctionnement-en-7-etapes",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ab-consulting.fr/blog/blockchain/minage-7-etapes",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.ab-consulting.fr/blog/blockchain/minage-7-etapes",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ahajournals.org/doi/10.1161/jaha.118.008814?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 403,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/#:~:text=and%20financial%20welfare.-,Measures%20of%20inflation,consumer%20price%20index%20(CPI).",
+      "pages": [
+        "article7(criseeconomique).html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/#:~:text=and%20financial%20welfare.-,Measures%20of%20inflation,consumer%20price%20index%20(CPI).",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.blockchain.com/btc/unconfirmed-transactions",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.blockchain.com/explorer/mempool/btc",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.cliniquebedard.com",
+      "pages": [
+        "article8.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.cliniquebedard.com",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.cointribune.com/bitcoin-geopolitique-semaine-9/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.cointribune.com/bitcoin-geopolitique-semaine-9/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.cointribune.com/crypto-voici-les-trois-choses-qui-vont-conduire-a-une-adoption-massive",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 410,
+      "result": "remote-not-found",
+      "detail": "HTTP Error 410: Gone"
+    },
+    {
+      "url": "https://www.forbes.com/sites/danrunkevicius/2022/06/29/the-secs-chair-makes-game-changing-crypto-statement-as-price-of-bitcoin-ethereum-bnb-xrp-terras-luna-solana-cardano-dogecoin-turn-mixed/?sh=1b049d7424d8",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.forbes.com/sites/danrunkevicius/2022/06/29/the-secs-chair-makes-game-changing-crypto-statement-as-price-of-bitcoin-ethereum-bnb-xrp-terras-luna-solana-cardano-dogecoin-turn-mixed/?sh=1b049d7424d8",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.gemini.com/cryptopedia",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.gemini.com/cryptopedia",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hardwaretimes.com/mining-ethereum-raises-gddr6x-temps-to-110c-in-3080-and-3090/",
+      "pages": [
+        "article5.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://hardwaretimes.com/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.heart.org/en/news/2018/07/12/regular-tea-drinking-might-help-your-heart-as-you-age-study-suggests",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.heart.org/en/news/2018/07/12/regular-tea-drinking-might-help-your-heart-as-you-age-study-suggests",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.investopedia.com/articles/investing/050715/can-bitcoin-kill-central-banks.asp",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 402,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 402: Payment Required"
+    },
+    {
+      "url": "https://www.investopedia.com/terms/1/51-attack.asp",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 402,
+      "result": "unverified-http-response",
+      "detail": "HTTP Error 402: Payment Required"
+    },
+    {
+      "url": "https://www.makeuseof.com/cbdcs-vs-cryptocurrencies-whats-the-difference/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.makeuseof.com/cbdcs-vs-cryptocurrencies-whats-the-difference/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/caffeine/art-20049372",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-central-bank-digital-currency-cbdc",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-central-bank-digital-currency-cbdc",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5696634/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov:443/articles/PMC5696634/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5696634/?itid=lk_inline_enhanced-template",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov:443/articles/PMC5696634/?itid=lk_inline_enhanced-template",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6160559/",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov:443/articles/PMC6160559/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.newscientist.com/article/2305646-quantum-computers-are-a-million-times-too-small-to-hack-bitcoin/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.newscientist.com/article/2305646-quantum-computers-are-a-million-times-too-small-to-hack-bitcoin/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0149763416300690",
+      "pages": [
+        "article11.html"
+      ],
+      "method": "HEAD",
+      "result": "unverified-network-error",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.technologyreview.com/2015/05/08/168243/why-bitcoin-could-be-much-more-than-a-currency/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.technologyreview.com/2015/05/08/168243/why-bitcoin-could-be-much-more-than-a-currency/",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tomshardware.com/news/hwinfo64-adds-gddr6x-temp-monitoring-rtx30series",
+      "pages": [
+        "article5.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.tomshardware.com/news/hwinfo64-adds-gddr6x-temp-monitoring-rtx30series",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.weforum.org/agenda/2023/10/what-are-central-bank-digital-currencies-advantages-risks/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.weforum.org/stories/financial-and-monetary-systems/what-are-central-bank-digital-currencies-advantages-risks",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.weforum.org/agenda/2023/11/cbdcs-how-different-cryptocurrency-stablecoin/",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.weforum.org/stories/financial-and-monetary-systems/cbdcs-how-different-cryptocurrency-stablecoin",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.who.int/news-room/feature-stories/detail/the-effects-of-virus-variants-on-covid-19-vaccines?gclid=EAIaIQobChMIl62g1-7E8QIVF52zCh1Y5wKtEAAYAiAAEgJB2_D_BwE",
+      "pages": [
+        "article6.html"
+      ],
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.who.int/news-room/feature-stories/detail/the-effects-of-virus-variants-on-covid-19-vaccines?gclid=EAIaIQobChMIl62g1-7E8QIVF52zCh1Y5wKtEAAYAiAAEgJB2_D_BwE",
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=G-_LHIIaaJ0&list=PLJVmdEcJ5R2St-nTxfrO-z0Xiij_Syxuw&index=5&t=4323s&ab_channel=RadioAth%C3%A9na",
+      "pages": [
+        "article7(criseeconomique).html"
+      ],
+      "method": "HEAD",
+      "result": "unverified-network-error",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dHvlLbmtv5A&ab_channel=ConcaveBrandTracking",
+      "pages": [
+        "article5.html"
+      ],
+      "method": "HEAD",
+      "result": "unverified-network-error",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://youtu.be/JIghCKPLQvc",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "result": "unverified-network-error",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://youtu.be/syAkdb_TDyo",
+      "pages": [
+        "article2.html"
+      ],
+      "method": "HEAD",
+      "result": "unverified-network-error",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

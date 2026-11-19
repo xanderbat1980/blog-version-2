@@ -1,86 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1error404.html0"
-    />
-    <meta
-      name="Welcome to my world!!!Xanderb@"
-      content="
-      Everything Xander thinks about different topics (Donald Trump, diet, physical activity to stay healthy, hockey, cryptocurrency, and so on) No information is invented Everything comes (or almost) from appropriate documentation."
-    />
-    <title>Xander@</title>
+<html lang="fr-CA"><head>
+    <meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdn.dribbble.com; media-src 'self' https://d21rhj7n383afu.cloudfront.net; frame-src https://youtube.com https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'" http-equiv="Content-Security-Policy"/><meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+
+
 
     <!-- font awesome icons cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet"/>
 
     <!-- swiper slider css file -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
-      integrity="sha512-x9WWODH0qw+aXoiT69XzI4WX2MXpqvVGY+O9HpJ4wbjEubpjDIM5CwTrU/OFJg7tSMbBMpgwz2Qp6xlUsk+FgA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
     <!-- custom style css file -->
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet"/>
 
     <!-- deadline -->
-    <link rel="stylesheet" href="style3.css" />
 
-  </head>
-  <body>
+
+  <title>Page de test — cheveux | Xander B.</title><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="Page de test conservée pour révision, consacrée aux cheveux." name="description"/><meta content="strict-origin-when-cross-origin" name="referrer"/><link href="https://xanderbat1980.github.io/blog-version-2/testPage.html" rel="canonical"/><meta content="Page de test — cheveux | Xander B." property="og:title"/><meta content="Page de test conservée pour révision, consacrée aux cheveux." property="og:description"/><meta content="website" property="og:type"/><meta content="https://xanderbat1980.github.io/blog-version-2/testPage.html" property="og:url"/><meta content="fr_CA" property="og:locale"/><meta content="noindex, follow" name="robots"/></head>
+  <body><a class="skip-link" href="#site-main">Aller au contenu</a>
     <!-- Header -->
-    <header id="header" class="shadow bg-light">
-      <nav class="container navbar">
-        <a href="/index.html" class="nav-brand text-dark"> Xander@ </a>
+    <header class="shadow bg-light" id="header">
+      <nav aria-label="Navigation principale" class="container navbar">
+        <a class="nav-brand text-dark" href="index.html"> Xander@ </a>
 
         <!-- toggle button -->
-        <button class="toggle-button">
-          <span><i class="fas fa-bars"></i></span>
-        </button>
+        <button aria-controls="nav-panel-1 nav-panel-2" aria-expanded="false" aria-label="Menu" class="toggle-button" type="button"><span aria-hidden="true">☰</span></button>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-1">
           <ul class="navbar-nav">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="error405.html" class="nav-link">Blog</a>
-            <a href="error404.html" class="nav-link">Pages</a>
-            <a href="error404.html" class="nav-link">Categories</a>
-            <a href="aboutMe.html" class="nav-link">About</a>
-            <a href="contactMe.html" class="nav-link">Contact</a>
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="articles.html">Blog</a></li>
+            <li><a class="nav-link" href="articles.html">Pages</a></li>
+            <li><a class="nav-link" href="categories.html">Categories</a></li>
+            <li><a class="nav-link" href="aboutMe.html">About</a></li>
+            <li><a class="nav-link" href="contactMe.html">Contact</a></li>
           </ul>
         </div>
 
         <!-- collapse on toggle button click -->
-        <div class="collapse">
+        <div class="collapse" id="nav-panel-2">
           <ul class="navbar-nav">
-            <div class="search-box">
-              <a href="error404.html" class="nav-link"
-                ><i class="fas fa-search"></i
-              ></a>
-            </div>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a href="error404.html" class="nav-link"
-              ><i class="fab fa-dribbble"></i
-            ></a>
+            <li><div class="search-box">
+              <a aria-label="Rechercher des articles" class="nav-link" href="search.html"><i aria-hidden="true" class="fas fa-search"></i><span class="search-label">Rechercher</span></a>
+            </div></li>
+            <li><span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span></li>
+            <li><span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span></li>
           </ul>
         </div>
       </nav>
@@ -88,7 +57,7 @@
 
 
     <!-- Main Site -->
-    <main id="site-main">
+    <main id="site-main" tabindex="-1"><p class="site-notice">Page en préparation ou de démonstration, conservée pour révision. Son contenu peut être incomplet.</p>
       <!-- Post Content -->
       <section class="container">
         <div class="layout-2 row">
@@ -97,75 +66,64 @@
               <!-- article heading -->
               <div class="headings text-center">
                 <div class="category">
-                  <a href="error404.html" class="nav-link">Health</a>
+                  <a class="nav-link" href="categories.html#sante">Health</a>
                 </div>
 
                 <div class="title">
                   <h3 class="text-title text-dark display-1">
                     <strong>Aujourd'hui nous parlons de la santé de....???</strong>
                   </h3>
-                  <h2> De vos cheveux messieurs..</h2><h3>Et oui gang de chanceux tous mes secrets dévoilés pour conserver sa couleur et son épaisseur. Et le tout gratuit en plus.
+                  <h1> De vos cheveux messieurs..</h1><h3>Et oui gang de chanceux tous mes secrets dévoilés pour conserver sa couleur et son épaisseur. Et le tout gratuit en plus.
                   </h3>
                 </div>
 
                 <div class="meta">
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-                    <i class="fas fa-user text-primary"></i> Xander B.
+                  <a class="link display-2 text-secondary px-1" href="aboutMe.html">
+                    <i aria-hidden="true" class="fas fa-user text-primary"></i> Xander B.
                   </a>
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-                    <i class="fas fa-clock text-primary"></i> Clock Tuesday August 09, 2022
-                  </a>
-                  <a
-                    href="error404.html"
-                    class="link display-2 text-secondary px-1"
-                  >
-                    <i class="fas fa-comments text-primary"></i> 12
-                  </a>
+                  <span class="link display-2 text-secondary px-1">
+                    <i aria-hidden="true" class="fas fa-clock text-primary"></i> Clock Tuesday August 09, 2022
+                  </span>
+                  <span class="link display-2 text-secondary px-1">
+                    <i aria-hidden="true" class="fas fa-comments text-primary"></i> 12
+                  </span>
                 </div>
               </div>
 
               <!-- thumbnail  -->
               <div class="thumbnail mt-3">
-                <img
-                  src="./Assets/article9/beautifulHair.jpg"
-                  class="thumbnail"
-                  alt=""
-                />
+                <img alt="Illustration : beautifulHair.jpg" class="thumbnail" decoding="async" height="640" src="./Assets/article9/beautifulHair.jpg" width="640"/>
               </div>
 
               <!-- content -->
               <div class="content text-dark display-2 secondary-title mt-3">
                 <h3><strong>Les pills...</strong></h3>
                 <p>
-                  <h3>Finasterid, Avodar, Propecia, what else ???</h3>
-                  &#160 &#160 &#160 &#160 &#160 &#160 J'ai décidé de commencer par les pillules puisque selon mon expérience, et croyez moi j'ai tout essayé, c'est ce qui fonctionne le mieux contre la calvitie héréditaire. Mais malheureusement, aussitôt que vous commencé avec ca, c'est pour la vie. Et oui, il y a des effets secondaires qui sont plus ou moins présents tout dépendant de l'individu. Dans le cas du finasteride vous allez arrêter la chute de vos cheveux environ 2 semaines à 1 mois après la première dose. Les 3 premières années c'est ca qu'il est le plus efficace. Ensuite vous il vous faudra passer au Dutastéride qui lui pourra durer longtemps. Propécia (finastéride) est complètement remboursable par la RAMQ et seulement prescrit par ordonance contrairement à la formule sans prescription mais très dispendieuse appelé Propécia et calibrer spécifiquement (pas besoin de couper la pillule en 4) pour un traitement de perte de cheveux. Et oui, la formule Finasteride (Propécia) vous devrez couper la pillule en 4 avec un couper de pills. Bon le seul effet secondaire observable car l'autre étant la diminution de la grosseur de la prostate, est une possible difficulté érectile. Oui je sais. Mais heureusement pour nous, Cialis et Viagra sont là. Personnellement, j'utilise Avodar depuis 10 ans et j'ai même plus de cheveux qu'avant. Vous devrez avoir un bon médecin pour vous le prescrir car il est reconnue juste contre le cancer de la prostate. Mais d'un point de vue chimique, il s'agit exactement de la même molécule que celle du Finastéride avec une autre supplémentaire pour contrer les 2 alpha-reductace qui transforme la testostérone en dihydrotestostérone à l'origine de la perte de vos cheveux ceux qui ont ca de manière génétique (papa perdait ses cheveux ou maman dans de rares cas). Et une partie seulement est rembousé par la RAMQ. 
-                </p>
+                  </p><h3>Finasterid, Avodar, Propecia, what else ???</h3>
+                              J'ai décidé de commencer par les pillules puisque selon mon expérience, et croyez moi j'ai tout essayé, c'est ce qui fonctionne le mieux contre la calvitie héréditaire. Mais malheureusement, aussitôt que vous commencé avec ca, c'est pour la vie. Et oui, il y a des effets secondaires qui sont plus ou moins présents tout dépendant de l'individu. Dans le cas du finasteride vous allez arrêter la chute de vos cheveux environ 2 semaines à 1 mois après la première dose. Les 3 premières années c'est ca qu'il est le plus efficace. Ensuite vous il vous faudra passer au Dutastéride qui lui pourra durer longtemps. Propécia (finastéride) est complètement remboursable par la RAMQ et seulement prescrit par ordonance contrairement à la formule sans prescription mais très dispendieuse appelé Propécia et calibrer spécifiquement (pas besoin de couper la pillule en 4) pour un traitement de perte de cheveux. Et oui, la formule Finasteride (Propécia) vous devrez couper la pillule en 4 avec un couper de pills. Bon le seul effet secondaire observable car l'autre étant la diminution de la grosseur de la prostate, est une possible difficulté érectile. Oui je sais. Mais heureusement pour nous, Cialis et Viagra sont là. Personnellement, j'utilise Avodar depuis 10 ans et j'ai même plus de cheveux qu'avant. Vous devrez avoir un bon médecin pour vous le prescrir car il est reconnue juste contre le cancer de la prostate. Mais d'un point de vue chimique, il s'agit exactement de la même molécule que celle du Finastéride avec une autre supplémentaire pour contrer les 2 alpha-reductace qui transforme la testostérone en dihydrotestostérone à l'origine de la perte de vos cheveux ceux qui ont ca de manière génétique (papa perdait ses cheveux ou maman dans de rares cas). Et une partie seulement est rembousé par la RAMQ.
+                <p></p>
 
 
                 <p align="center">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://youtube.com/embed/JLvANzI34_A"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+                  <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://youtube.com/embed/JLvANzI34_A" title="YouTube video player" width="560"></iframe>
                 </p>
 
                 <p>
-                  &#160 &#160 &#160 &#160 &#160 &#160 En résumé, si je pourrais revenir en arrière et que je souffre encore de calvitie congénital, je commencerais Finastéride vers 20 ans pour 2-3 ans, ensuite j'irais sur Avodar pour une bonne dizaines d'années. Et si jamais j'avais des problèmes érectiles, je prendrais du Cialis. Je le sais que c'est vraiment gênant pour nous les gars d'utiliser ca et surtout que les autres le sache mais dites vous que vous allez avoir une belle crinière pour très très longtemps. C'est pas que vous ne bander pas c'est juste que vous voulez garder vos cheveux et éviter une transplantation dans plusieurs années ce qui va être 1000 fois plus dispendieux que vos 2 pillules. Et des cheveux transplantés, même par le meilleur spécialiste du monde, sa ne sera jamais aussi dense qu'avant. Et le look n'est pas tout à fait pareil même si bien souvent, pour ne pas dire la majorité des cas, ne le remarque même pas. La deuxième étape et moins compliqué et dispendieux, le <em>shampoing</em>... 
+                              En résumé, si je pourrais revenir en arrière et que je souffre encore de calvitie congénital, je commencerais Finastéride vers 20 ans pour 2-3 ans, ensuite j'irais sur Avodar pour une bonne dizaines d'années. Et si jamais j'avais des problèmes érectiles, je prendrais du Cialis. Je le sais que c'est vraiment gênant pour nous les gars d'utiliser ca et surtout que les autres le sache mais dites vous que vous allez avoir une belle crinière pour très très longtemps. C'est pas que vous ne bander pas c'est juste que vous voulez garder vos cheveux et éviter une transplantation dans plusieurs années ce qui va être 1000 fois plus dispendieux que vos 2 pillules. Et des cheveux transplantés, même par le meilleur spécialiste du monde, sa ne sera jamais aussi dense qu'avant. Et le look n'est pas tout à fait pareil même si bien souvent, pour ne pas dire la majorité des cas, ne le remarque même pas. La deuxième étape et moins compliqué et dispendieux, le <em>shampoing</em>...
                 </p>
 
                 <p>
-                  <Lorem> <h3>ipsum dolor sit amet, consectetur</h3> adipisicing elit, sed do eiusmod
+                  <lorem> </lorem></p><h3>ipsum dolor sit amet, consectetur</h3> adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                <p></p>
+
+                <p>
+                  <lorem> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -174,18 +132,8 @@
 
                 </p>
 
-                <p>
-                  <Lorem> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </lorem>
 
-                </p>
-
-
-                <p>Écrit dans la langue de Molière par <h4><em>Xander B. &copy;</em></h4></p>
+                <p>Écrit dans la langue de Molière par </p><h4><em>Xander B. ©</em></h4><p></p>
 
                 <a href="https://globalnews.ca/news/7917233/donald-trump-president-2025-us-election/">Lien vers l'article source</a>
 
@@ -195,57 +143,33 @@
             <!-- post footer -->
             <div class="post-footer mb-3">
               <div class="post-tags d-flex flex-wrap justify-content-center">
-                <a href="index.html" class="nav-link btn bg-light"
-                  >About Trump - The True Story</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Crypto / Blockchain</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Health</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Environment</a
-                >
-                <a href="index.html" class="nav-link btn bg-light">Hockey</a>
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Global Economic News</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Political News</a
-                >
-                <a href="index.html" class="nav-link btn bg-light"
-                  >Others various subject</a
-                >
+                <a class="nav-link btn bg-light" href="index.html">About Trump - The True Story</a>
+                <a class="nav-link btn bg-light" href="index.html">Crypto / Blockchain</a>
+                <a class="nav-link btn bg-light" href="index.html">Health</a>
+                <a class="nav-link btn bg-light" href="index.html">Environment</a>
+                <a class="nav-link btn bg-light" href="index.html">Hockey</a>
+                <a class="nav-link btn bg-light" href="index.html">Global Economic News</a>
+                <a class="nav-link btn bg-light" href="index.html">Political News</a>
+                <a class="nav-link btn bg-light" href="index.html">Others various subject</a>
               </div>
 
               <div class="post-author text-center">
                 <div class="author-avatar">
-                  <img src="./Assets/moi.jpg" class="rounded" alt="" />
+                  <img alt="Illustration : moi.jpg" class="rounded" decoding="async" height="287" loading="lazy" src="./Assets/moi.jpg" width="372"/>
                 </div>
 
                 <div class="author-info py-2">
                   <h3 class="text-dark">Xander B.</h3>
 
                   <p class="text-secondary secondary-title">
-                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected. 
+                    <em>Persona Non Grata</em> in several country, Xander B. could be seen like a kind of perfect Political mix between an <em>Hooligan</em> and a <em>Vulcans</em> following Brennan taxonomy of democratic character types. Who figure in his bestseller <em>Against Democracy</em>. Trust him or not, all you will read is not a fiction but the true reality based on his long experience and studies. Be prepare for the choc of what is the real world..... Stay connected.
                   </p>
 
-                  <div
-                    class="post-tags d-flex flex-wrap justify-content-center"
-                  >
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a href="error404.html" class="nav-link"
-                      ><i class="fab fa-dribbble"></i
-                    ></a>
+                  <div class="post-tags d-flex flex-wrap justify-content-center">
+                    <span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span>
+                    <span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span>
+                    <span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span>
+                    <span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span>
                   </div>
                 </div>
               </div>
@@ -255,70 +179,48 @@
                 <div class="row justify-content-center">
                   <div class="prev">
                     <div class="py-2">
-                      <a href="error404.html" class="display-2 text-dark">
-                        <i class="fas fa-chevron-left"></i>
+                      <span aria-disabled="true" class="display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
+                        <i aria-hidden="true" class="fas fa-chevron-left"></i>
                         Previous Post
-                      </a>
+                      </span>
                     </div>
                     <article class="article text-center">
                       <div class="d-flex">
-                        <a href="error404.html">
-                          <img
-                            src="./Assets/running.jpg"
-                            class="object-fit"
-                            alt=""
-                          />
-                        </a>
+                        <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                          <img alt="Illustration : running.jpg" class="object-fit" decoding="async" height="541" loading="lazy" src="./Assets/running.jpg" width="1000"/>
+                        </span>
                         <div class="cart-body px-1">
                           <div class="category">
-                            <a
-                              href="error404.html"
-                              class="link text-primary text-secondary"
-                              >Global economics news</a
-                            >
+                            <a class="link text-primary text-secondary" href="article7(criseeconomique).html">Global economics news</a>
                           </div>
-                          <a
-                            href="error404.html"
-                            class="text-title display-1 text-dark"
-                          >
+                          <span aria-disabled="true" class="text-title display-1 text-dark" data-unavailable-link="" title="Lien non configuré">
                             Looking for some feedback for this rejected track
                             technology
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </article>
                   </div>
                   <div class="next text-right">
                     <div class="py-2">
-                      <a href="error404.html" class="display-2 text-dark">
+                      <span aria-disabled="true" class="display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                         Next Post
-                        <i class="fas fa-chevron-right"></i>
-                      </a>
+                        <i aria-hidden="true" class="fas fa-chevron-right"></i>
+                      </span>
                     </div>
                     <article class="article text-center">
                       <div class="d-flex">
-                        <a href="error404.html">
-                          <img
-                            src="./Assets/walk.png"
-                            class="object-fit"
-                            alt=""
-                          />
-                        </a>
+                        <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                          <img alt="Illustration : walk.png" class="object-fit" decoding="async" height="338" loading="lazy" src="./Assets/walk.png" width="450"/>
+                        </span>
                         <div class="cart-body px-1">
                           <div class="category">
-                            <a
-                              href="error404.html"
-                              class="link text-primary text-secondary"
-                              >Global economics news</a
-                            >
+                            <a class="link text-primary text-secondary" href="article7(criseeconomique).html">Global economics news</a>
                           </div>
-                          <a
-                            href="error404.html"
-                            class="text-title display-1 text-dark"
-                          >
+                          <span aria-disabled="true" class="text-title display-1 text-dark" data-unavailable-link="" title="Lien non configuré">
                             Looking for some feedback for this rejected track
                             technology
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </article>
@@ -336,11 +238,7 @@
                   <div class="comment-item py-2">
                     <div class="d-flex">
                       <div class="avatar px-2">
-                        <img
-                          src="./Assets/louisbenoitdobson.jpg"
-                          class="rounded"
-                          alt=""
-                        />
+                        <img alt="Illustration : louisbenoitdobson.jpg" class="rounded" decoding="async" height="1417" loading="lazy" src="./Assets/louisbenoitdobson.jpg" width="1440"/>
                       </div>
                       <div class="comment-content">
                         <h5 class="display-2 m-0">Louis-Benoit Dobson</h5>
@@ -357,11 +255,7 @@
                     <div class="reply py-2">
                       <div class="d-flex">
                         <div class="avatar px-2">
-                          <img
-                            src="./Assets/emannuelmarcoux.jpg"
-                            class="rounded"
-                            alt=""
-                          />
+                          <img alt="Illustration : emannuelmarcoux.jpg" class="rounded" decoding="async" height="1088" loading="lazy" src="./Assets/emannuelmarcoux.jpg" width="1080"/>
                         </div>
                         <div class="comment-content">
                           <h5 class="display-2 m-0">Emmanuel Marcoux</h5>
@@ -379,7 +273,7 @@
                   <div class="comment-item py-2">
                     <div class="d-flex">
                       <div class="avatar px-2">
-                        <img src="./Assets/moi.jpg" class="rounded" alt="" />
+                        <img alt="Illustration : moi.jpg" class="rounded" decoding="async" height="287" loading="lazy" src="./Assets/moi.jpg" width="372"/>
                       </div>
                       <div class="comment-content">
                         <h5 class="display-2 m-0">Xander B.</h5>
@@ -396,107 +290,67 @@
 
                 <!-- comment form -->
                 <div class="comment-form">
-                  <h3 class="text-center display-1 secondary-title py-2">
+                  <p class="site-notice">L’envoi de commentaires n’est pas configuré. Aucun message ne sera transmis depuis cette page.</p><h3 class="text-center display-1 secondary-title py-2">
                     Leave Comment
                   </h3>
 
                   <div class="d-flex justify-content-between flex-wrap">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Name"
-                    />
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Email"
-                    />
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Website"
-                    />
+                    <input aria-label="Name" class="form-control" disabled="" placeholder="Name" type="text"/>
+                    <input aria-label="Email" class="form-control" disabled="" placeholder="Email" type="email"/>
+                    <input aria-label="Website" class="form-control" disabled="" placeholder="Website" type="text"/>
                   </div>
 
-                  <textarea
-                    class="form-control mt-3"
-                    placeholder="Message"
-                    rows="10"
-                  ></textarea>
+                  <textarea aria-label="Message" class="form-control mt-3" disabled="" placeholder="Message" rows="10"></textarea>
                   <div class="text-center">
-                    <button class="btn btn-primary display-2 text-light mt-2">
-                      <a href="error404.html">Submit</a>
+                    <button class="btn btn-primary display-2 text-light mt-2" disabled="" type="button">
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">Submit</span>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
 
-                
+
             <!-- Post footer -->
           </div>
           <div class="col-4">
-            <aside id="sidebar" class="px-1">
+            <aside class="px-1" id="sidebar">
               <!-- categories -->
               <section class="categories">
                 <h2 class="text-center text-dark">Categories</h2>
 
-                <a
-                  href="deadline.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="deadline.html">
                   <span>Crypto / Blockchain</span>
                   <span>5</span>
                 </a>
-                <a
-                  href="deadline.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="deadline.html">
                   <span>About Trump - The true story</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="categories.html#sante">
                   <span>Health</span>
                   <span>8</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <span aria-disabled="true" class="d-flex justify-content-between text-dark" data-unavailable-link="" title="Lien non configuré">
                   <span>Environment</span>
                   <span>2</span>
-                </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                </span>
+                <span aria-disabled="true" class="d-flex justify-content-between text-dark" data-unavailable-link="" title="Lien non configuré">
                   <span>Hockey</span>
                   <span>3</span>
-                </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                </span>
+                <a class="d-flex justify-content-between text-dark" href="article7(criseeconomique).html">
                   <span>Global Economic News</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <a class="d-flex justify-content-between text-dark" href="categories.html#politique">
                   <span>Political News</span>
                   <span>2</span>
                 </a>
-                <a
-                  href="error404.html"
-                  class="d-flex justify-content-between text-dark"
-                >
+                <span aria-disabled="true" class="d-flex justify-content-between text-dark" data-unavailable-link="" title="Lien non configuré">
                   <span>Others various subject</span>
                   <span>2</span>
-                </a>
+                </span>
               </section>
 
               <!-- Trending post -->
@@ -507,29 +361,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpcovid19.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Illustration : trumpcovid19.jpg" class="rounded px-1" decoding="async" height="428" loading="lazy" src="./Assets/Trump/trumpcovid19.jpg" width="800"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - Covid-19
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -542,29 +389,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpiran.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Illustration : trumpiran.jpg" class="rounded px-1" decoding="async" height="413" loading="lazy" src="./Assets/Trump/trumpiran.jpg" width="620"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - Iran
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -577,29 +417,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpalena.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Illustration : trumpalena.jpg" class="rounded px-1" decoding="async" height="433" loading="lazy" src="./Assets/Trump/trumpalena.jpg" width="770"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - ALENA
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -612,29 +445,22 @@
                 <div class="post-item py-1">
                   <article class="article">
                     <div class="d-flex">
-                      <a href="error404.html">
-                        <img
-                          src="./Assets/Trump/trumpotan1.jpg"
-                          class="rounded px-1"
-                          alt=""
-                        />
-                      </a>
+                      <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        <img alt="Illustration : trumpotan1.jpg" class="rounded px-1" decoding="async" height="540" loading="lazy" src="./Assets/Trump/trumpotan1.jpg" width="960"/>
+                      </span>
                       <div class="cart-body">
                         <div class="trending-category">
-                          <a href="error404.html" class="link text-primary">
+                          <a class="link text-primary" href="article1.html">
                             About Trump - NATO (OTAN)
                           </a>
                         </div>
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                        <span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
                           <span>
-                            <i class="far fa-clock text-primary"></i>
+                            <i aria-hidden="true" class="far fa-clock text-primary"></i>
                             Clock Wed 02, 2019
                           </span>
                         </p>
@@ -653,70 +479,46 @@
       <section class="slider">
         <div class="container">
           <!-- Slider main container -->
-          <div class="swiper-container">
+          <div aria-label="Galerie d’images" class="swiper-container" role="region">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" tabindex="0">
               <!-- Slides -->
               <div class="swiper-slide">
                 <a href="index.html">
-                  <img
-                    src="./Assets/slider/beautifulHair.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img alt="Illustration : beautifulHair.jpg" class="img-fluid" decoding="async" height="640" loading="lazy" src="./Assets/slider/beautifulHair.jpg" width="640"/>
                 </a>
               </div>
               <!-- error404.htmlSlides -->
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="error404.html">
-                  <img
-                    src="./Assets/slider/gasfeeseth.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </a>
+                <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                  <img alt="Illustration : gasfeeseth.png" class="img-fluid" decoding="async" height="607" loading="lazy" src="./Assets/slider/gasfeeseth.png" width="1080"/>
+                </span>
               </div>
               <!-- Slides -->
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="error404.html">
-                  <img
-                    src="./Assets/slider/theRealEstateBubbleMainPic.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </a>
+                <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                  <img alt="Illustration : theRealEstateBubbleMainPic.jpg" class="img-fluid" decoding="async" height="750" loading="lazy" src="./Assets/slider/theRealEstateBubbleMainPic.jpg" width="1333"/>
+                </span>
               </div>
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="error404.html">
-                  <img
-                    src="./Assets/slider/img4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </a>
+                <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                  <img alt="Illustration : img4.jpg" class="img-fluid" decoding="async" height="675" loading="lazy" src="./Assets/slider/img4.jpg" width="1200"/>
+                </span>
               </div>
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="error404.html">
-                  <img
-                    src="./Assets/slider/img5.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </a>
+                <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                  <img alt="Illustration : img5.jpg" class="img-fluid" decoding="async" height="330" loading="lazy" src="./Assets/slider/img5.jpg" width="460"/>
+                </span>
               </div>
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="error404.html">
-                  <img
-                    src="./Assets/slider/img6.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </a>
+                <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                  <img alt="Illustration : img6.jpg" class="img-fluid" decoding="async" height="450" loading="lazy" src="./Assets/slider/img6.jpg" width="600"/>
+                </span>
               </div>
               <!-- Slides -->
             </div>
@@ -749,17 +551,17 @@
               </p>
 
               <address>
-                <i class="fas fa-map-marker-alt text-primary"></i>
+                <i aria-hidden="true" class="fas fa-map-marker-alt text-primary"></i>
                 Somewhere in Quebec, Canada
               </address>
 
               <div class="phone">
-                <i class="fas fa-mobile text-primary"></i>
+                <i aria-hidden="true" class="fas fa-mobile text-primary"></i>
                 (xxx) xxx-xxxx
               </div>
 
               <div class="email">
-                <i class="fas fa-envelope text-primary"></i>
+                <i aria-hidden="true" class="fas fa-envelope text-primary"></i>
                 xanderbat@hotmail.com
               </div>
             </div>
@@ -771,84 +573,60 @@
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Illustration : breakingnews.jpg" class="object-fit px-1" decoding="async" height="600" loading="lazy" src="./Assets/breakingnews.jpg" width="600"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Illustration : breakingnews.jpg" class="object-fit px-1" decoding="async" height="600" loading="lazy" src="./Assets/breakingnews.jpg" width="600"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
               <div class="flex-item">
                 <article class="article">
                   <div class="d-flex">
-                    <a href="error404.html">
-                      <img
-                        src="./Assets/breakingnews.jpg"
-                        class="object-fit px-1"
-                        alt=""
-                      />
-                      <div class="px-1">
-                        <a
-                          href="error404.html"
-                          class="text-title display-2 text-dark"
-                        >
+                    <span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                      <img alt="Illustration : breakingnews.jpg" class="object-fit px-1" decoding="async" height="600" loading="lazy" src="./Assets/breakingnews.jpg" width="600"/>
+                      </span><div class="px-1"><span aria-disabled="true" data-unavailable-link="" title="Lien non configuré">
+                        </span><span aria-disabled="true" class="text-title display-2 text-dark" data-unavailable-link="" title="Lien non configuré">
                           Looking for some feedback for this rejected track
                           technology
-                        </a>
+                        </span>
                         <p class="secondary-title text-secondary display-3">
-                          <span
-                            ><i class="far fa-clock text-primary"></i> Clock Wed
+                          <span><i aria-hidden="true" class="far fa-clock text-primary"></i> Clock Wed
                             02, 2021
                           </span>
                         </p>
                       </div>
-                    </a>
+
                   </div>
                 </article>
               </div>
@@ -859,28 +637,14 @@
 
             <div class="tags">
               <div class="d-flex flex-wrap">
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >About Trump - The true story</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Crypto / blockchain</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Environment</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Health</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Global Economic News</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light">Hockey</a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Others various subject</a
-                >
-                <a href="error404.html" class="nav-link btn bg-light"
-                  >Polical News</a
-                >
+                <a class="nav-link btn bg-light" href="article1.html">About Trump - The true story</a>
+                <a class="nav-link btn bg-light" href="article2.html">Crypto / blockchain</a>
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Environment</span>
+                <a class="nav-link btn bg-light" href="categories.html#sante">Health</a>
+                <a class="nav-link btn bg-light" href="article7(criseeconomique).html">Global Economic News</a>
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Hockey</span>
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Others various subject</span>
+                <span aria-disabled="true" class="nav-link btn bg-light" data-unavailable-link="" title="Lien non configuré">Polical News</span>
               </div>
             </div>
 
@@ -888,18 +652,10 @@
 
             <div class="tags social">
               <div class="d-flex flex-wrap">
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="error404.html" class="nav-link btn bg-light"
-                  ><i class="fab fa-dribbble"></i
-                ></a>
+                <span aria-disabled="true" aria-label="Facebook — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-facebook-f"></i></span>
+                <span aria-disabled="true" aria-label="Twitter — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-twitter"></i></span>
+                <span aria-disabled="true" aria-label="Instagram — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-instagram"></i></span>
+                <span aria-disabled="true" aria-label="Dribbble — lien non configuré" class="nav-link btn bg-light" data-unavailable-link="" role="link" title="Lien non configuré"><i aria-hidden="true" class="fab fa-dribbble"></i></span>
               </div>
             </div>
           </div>
@@ -909,7 +665,7 @@
         <div class="copyrights">
           <p class="text-center text-secondary display-2">
             © 2021
-            <a href="error404.html" class="text-primary">Xander B.</a>
+            <a class="text-primary" href="aboutMe.html">Xander B.</a>
             - Personal Blog Theme. All rights reserved.
           </p>
         </div>
@@ -918,22 +674,20 @@
     <!-- error404.htmlfooter -->
 
     <!-- masonry libray for horizontal grid -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
-      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
 
     <!-- swiper slider cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"
-      integrity="sha512-qqdD5ZLIGB5PCqCk1OD8nFBr/ngB5w+Uw35RE/Ivt5DK35xl1PFVkuOgAbqFpvtoxX6MpRGLmIqixzdhFOJhnA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script defer="" src="vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- custom javascript mainerror404.htmljs file -->
-    <script src="main.js"></script>
-  </body>
-</html>
+    <script defer="" src="main.js"></script>
+
+
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,61 @@
+{
+  "Assets/article12/bodybuildingPlanDiet.png": {
+    "pages": [
+      "article12.html"
+    ],
+    "references": 1
+  },
+  "Assets/article7(criseeconomique)/thirdWorldWar.jpg": {
+    "pages": [
+      "article7(criseeconomique).html"
+    ],
+    "references": 1
+  },
+  "Assets/comments/vanessa.jpg": {
+    "pages": [
+      "article2.html"
+    ],
+    "references": 1
+  },
+  "Assets/featurePost/asteroidImpact.jpg": {
+    "pages": [
+      "index.html"
+    ],
+    "references": 1
+  },
+  "Assets/featurePost/chatGPT1.png": {
+    "pages": [
+      "index.html"
+    ],
+    "references": 1
+  },
+  "Assets/hockey/31.jpg": {
+    "pages": [
+      "article2(gasfeeseth).html"
+    ],
+    "references": 1
+  },
+  "Assets/slider/img1.jpg": {
+    "pages": [
+      "sidebar.html",
+      "theRealEstateBubble.html"
+    ],
+    "references": 2
+  },
+  "Assets/slider/img2.jpg": {
+    "pages": [
+      "article7(criseeconomique).html",
+      "sidebar.html"
+    ],
+    "references": 2
+  },
+  "Assets/slider/img3.png": {
+    "pages": [
+      "aVif.html",
+      "article7(criseeconomique).html",
+      "sidebar.html",
+      "theRealEstateBubble.html"
+    ],
+    "references": 4
+  }
+}

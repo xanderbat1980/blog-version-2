@@ -1,0 +1,16 @@
+{
+  "name": "blog-version-2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Static blog; Node dependencies are for local checks only.",
+  "scripts": {
+    "check": "python3 scripts/check_site.py",
+    "test": "playwright test",
+    "test:content": "python3 scripts/check_content.py",
+    "check:assets": "python3 scripts/check_site.py --strict-assets"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@axe-core/playwright": "4.14.0"
+  }
+}
