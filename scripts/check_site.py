@@ -131,6 +131,11 @@ def check(strict_assets=False):
         digest = hashlib.sha256((ROOT / 'vendor' / path).read_bytes()).hexdigest()
         if digest != info.get('distributed_sha256', info['sha256']):
             errors.append(f'vendored dependency checksum mismatch: {path}')
+    restored = json.loads((ROOT / 'docs/restored-assets.json').read_text())
+    for asset in restored['files']:
+        path = ROOT / asset['path']
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != asset['sha256']:
+            errors.append(f'restored original asset missing or changed: {asset["path"]}')
     sitemap = ET.parse(ROOT / 'sitemap.xml')
     for loc in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc'):
         if not loc.text.startswith(BASE):

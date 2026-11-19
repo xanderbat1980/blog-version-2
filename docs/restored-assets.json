@@ -1,0 +1,588 @@
+{
+  "reference_repository": "xanderbat1980/blog",
+  "reference_commit": "20ccee967261fb92f374ad68cdfafa06427c912f",
+  "files": [
+    {
+      "path": "Assets/article2gasfeeseth/gasfeeseth1.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2gasfeeseth/gasfeeseth1.png",
+      "git_blob_sha": "6bb7f0d7150a5849151e6741215f6ccbd9f74a8c",
+      "sha256": "a8c15e035c8b21311368b661c2a188d3e83ef4ef1dc5573cb43cee128981ae24",
+      "bytes": 7270
+    },
+    {
+      "path": "Assets/Trump/trump1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trump1.jpg",
+      "git_blob_sha": "1e83902a46579b244ae43ae5ff85c251ca0de6c6",
+      "sha256": "d18be0e112c496227d88839d949efe7924bbf14a6e029ee5e95caf68f4ce4c9c",
+      "bytes": 149241
+    },
+    {
+      "path": "Assets/Trump/trump2024.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trump2024.jpg",
+      "git_blob_sha": "15e79776a82aa505d03ce6e875def12c903186b4",
+      "sha256": "7876781a73606283dcc6fd207497f2eb5c0688f9e4d2f0b276347fa6d32c30d2",
+      "bytes": 58056
+    },
+    {
+      "path": "Assets/Trump/trump20241.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trump20241.jpg",
+      "git_blob_sha": "d55505e4f0b7385c806155b11346435db6c344ef",
+      "sha256": "6f451b7e36c499b631e3669addc0a3fbaa7c7cff8aa7e05c463831f68d7a471c",
+      "bytes": 39618
+    },
+    {
+      "path": "Assets/Trump/trump6.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trump6.jpg",
+      "git_blob_sha": "3b495d56cbef413420ca350bd4ddf775e752784e",
+      "sha256": "054f6bb0529cbba6bc4600fcce5ae795c828c518c5ee27c3e4ae693103b47ff2",
+      "bytes": 58869
+    },
+    {
+      "path": "Assets/Trump/trumpalena.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trumpalena.jpg",
+      "git_blob_sha": "55f688019b9c2bb27d9877e1de5a80d781c3c538",
+      "sha256": "bf0ade0e7f759de9389127bc65ef60940359769153912b0b6a6066c60df037db",
+      "bytes": 26594
+    },
+    {
+      "path": "Assets/Trump/trumpcovid19.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trumpcovid19.jpg",
+      "git_blob_sha": "228ea3694536ea826582940427248f02a18d6a40",
+      "sha256": "2eefcb513802694e97be2b95101d5fbb4c38a51ffb1efceec886772b7e9c16de",
+      "bytes": 39020
+    },
+    {
+      "path": "Assets/Trump/trumpiran.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trumpiran.jpg",
+      "git_blob_sha": "a25601cea1356a1788ac2e52970964f6daf061b8",
+      "sha256": "69b09121064ac8549ae09ab543dff800514730e6e98a792056e33e8021951252",
+      "bytes": 37555
+    },
+    {
+      "path": "Assets/Trump/trumpotan1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/trumpotan1.jpg",
+      "git_blob_sha": "542aa84d1958fac37e4735a9898f7cab214b5fed",
+      "sha256": "1031e2115adc025de4517b0762014865c6766f1cbfa626b6d91750508b0628eb",
+      "bytes": 98748
+    },
+    {
+      "path": "Assets/Trump/womenForTrump.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/Trump/womenForTrump.png",
+      "git_blob_sha": "bcd7da378e70aba0cb70eb1ecef55ef203507214",
+      "sha256": "ea13569ba546426b2d3eaac437516c6a9f878af328c7e551104c1fd60985d169",
+      "bytes": 252288
+    },
+    {
+      "path": "Assets/aVif.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/aVif.jpg",
+      "git_blob_sha": "bd7f91d414ae985083233df47c2515af26808c64",
+      "sha256": "b9cdfaf7a2c380a2e7b5bbda05d61ffff011ba17678d4640e231663bf2d07de2",
+      "bytes": 15857
+    },
+    {
+      "path": "Assets/aboutMe/moi2.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/aboutMe/moi2.jpg",
+      "git_blob_sha": "49c81262510db6104898071bcfff3e48ec0737b0",
+      "sha256": "2a236792829c1d8f605790b6b499f2d65f08fe29a8e3f1bac11a845a7149492d",
+      "bytes": 79544
+    },
+    {
+      "path": "Assets/aboutMe/wantedDeadOrAlive1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/aboutMe/wantedDeadOrAlive1.jpg",
+      "git_blob_sha": "14abbe5902237c76ebf18ecb1e4e2674a62304c5",
+      "sha256": "e4885b8acfb608a6aff50564fcc82a6d684004c1915093391c42329cdf40b135",
+      "bytes": 195440
+    },
+    {
+      "path": "Assets/article2/bitcoinHack.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/bitcoinHack.jpg",
+      "git_blob_sha": "e92aa073da5106c90ec36ed94a711caf16af8d0e",
+      "sha256": "e806ac2ff432d4da0bad3f5d571c290b819c7bd16667244c57b3b93ab6146dbc",
+      "bytes": 64920
+    },
+    {
+      "path": "Assets/article2/cheminementTransactionBitcoin.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/cheminementTransactionBitcoin.jpg",
+      "git_blob_sha": "64d43f4fae706591153b5f971fe21e7237cdfebb",
+      "sha256": "59d94128ad88e6bb5ee1d0795db39583b21ecf7d170592414c6baf832c88d276",
+      "bytes": 43682
+    },
+    {
+      "path": "Assets/article2/cryptoVolativity.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/cryptoVolativity.jpg",
+      "git_blob_sha": "d3a01c92b494e36894dd671f071b116d3c0a7d84",
+      "sha256": "af00a46977372406a7a252ef26221fdb600911ed17a51c880947e582f77d630a",
+      "bytes": 24566
+    },
+    {
+      "path": "Assets/article2/miningFarmIran.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/miningFarmIran.jpg",
+      "git_blob_sha": "b1347c181f9dfbd2880eb2cd035ca8739f4cb133",
+      "sha256": "a4b13beea2cb9bb6d1b72a99b2f60ce3a6754e503fd443f4e907b1140acadc39",
+      "bytes": 673331
+    },
+    {
+      "path": "Assets/article2/miningFarmIran2.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/miningFarmIran2.jpg",
+      "git_blob_sha": "3252eb64f94214e3a5f5ed4a6422aa9a89ff1dd7",
+      "sha256": "5f0704b65342c0c223c0ee37fe39c9bcaf9cfcd02e3b8ddcb553a6d323c1a2d6",
+      "bytes": 149648
+    },
+    {
+      "path": "Assets/article2/statesBanBitcoin.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article2/statesBanBitcoin.jpg",
+      "git_blob_sha": "6b149c8637805fd1b801558202aa5cb32ace4658",
+      "sha256": "8e95f641e3e2d9d06d3236f916d14aa3d5f1f9495b71f80eeb5fedfe8bb50bbb",
+      "bytes": 38300
+    },
+    {
+      "path": "Assets/article4/article4(guerreDePeloponnesiennes431-404avJC.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/article4%28guerreDePeloponnesiennes431-404avJC.jpg",
+      "git_blob_sha": "6c3141a6402661ae0172beb2db6d7c0d18f1c921",
+      "sha256": "86581e7e718d31033ccf207fc25ba1cd6ae924981c24cc4005df496eb6910622",
+      "bytes": 732904
+    },
+    {
+      "path": "Assets/article4/article4(guerresPuniques264-146avJC.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/article4%28guerresPuniques264-146avJC.jpg",
+      "git_blob_sha": "e31f1ffeb6d17f2e9132857923aec2292beb0269",
+      "sha256": "595ac35f5e087fcda9590a78748131941abef01687977dedcc8324a9f8891ff6",
+      "bytes": 729682
+    },
+    {
+      "path": "Assets/article4/article4(main).jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/article4%28main%29.jpg",
+      "git_blob_sha": "a8df73d7dc9b7ee13de68f49ec916af58f79cd52",
+      "sha256": "7177d03b5f06e50b730be268503ce0d4e265bae9d5c933a2bac5a58544e2f15b",
+      "bytes": 690386
+    },
+    {
+      "path": "Assets/article4/article4(main-main).jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/article4%28main-main%29.jpg",
+      "git_blob_sha": "a45bb2d6f90aa11299f60a080ec20cb815c7707f",
+      "sha256": "a5bfc65007ee493efe19f7f9af1a3c8d723c9240ffb05a20e8091dbce010edd0",
+      "bytes": 658274
+    },
+    {
+      "path": "Assets/article4/guerreDeReligionFrance1562-1598.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/guerreDeReligionFrance1562-1598.jpg",
+      "git_blob_sha": "81164822e1f2764da3cae389003e1c921f42b9a6",
+      "sha256": "266f5bb24def98f197d8e5d446b500a95c3c014538a78e1d1b11d36a43d21098",
+      "bytes": 669916
+    },
+    {
+      "path": "Assets/article4/revolutionAmericaineDe1775-1783.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article4/revolutionAmericaineDe1775-1783.jpg",
+      "git_blob_sha": "0c2ae42c426c434cb0cd7b613eb1f65026536c13",
+      "sha256": "df3eb3e633a1a3a7b3ffd8ad862887b26031dd7245efb3ba2c1db5fa30b5ba3d",
+      "bytes": 776300
+    },
+    {
+      "path": "Assets/article5/allTalkNoFilter.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/allTalkNoFilter.jpg",
+      "git_blob_sha": "bd7f91d414ae985083233df47c2515af26808c64",
+      "sha256": "b9cdfaf7a2c380a2e7b5bbda05d61ffff011ba17678d4640e231663bf2d07de2",
+      "bytes": 15857
+    },
+    {
+      "path": "Assets/article5/brandsAndMovies.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/brandsAndMovies.jpg",
+      "git_blob_sha": "7ac1cad1eed4598ae73ed4b1e72fbf6a21a939e9",
+      "sha256": "2394f52da204ba8577c2f43f490f8d12bea2926084e8980e5b94b01ed7c3d49a",
+      "bytes": 21668
+    },
+    {
+      "path": "Assets/article5/brandsAndMovies1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/brandsAndMovies1.jpg",
+      "git_blob_sha": "f7fd1aea27790764b614bb9db170fee3637a49fa",
+      "sha256": "40e73a2d06d801589a1fb2e563373d349600859b8f7469f39a7a0a90cba2d909",
+      "bytes": 48489
+    },
+    {
+      "path": "Assets/article5/stalineWeapons1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/stalineWeapons1.jpg",
+      "git_blob_sha": "df8e095ab77a370b37a04525efbdf71d33b8b31f",
+      "sha256": "29d7ba2c0bd380d6edd84e79a556e208c28d24e7f0c69b1b8bf305327758b386",
+      "bytes": 191965
+    },
+    {
+      "path": "Assets/article5/vramTemp.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article5/vramTemp.jpg",
+      "git_blob_sha": "90c163d38a2dd499851eb3762add5fc8f02625c5",
+      "sha256": "e40bf32dbb0d5ac113c2f1857c077c4ee521a3658ee4be637f4765a944a666ae",
+      "bytes": 91902
+    },
+    {
+      "path": "Assets/article6(covid19pestenoir)/covid19pestenoir1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article6%28covid19pestenoir%29/covid19pestenoir1.jpg",
+      "git_blob_sha": "538d4b5349a25fe902916ba36fe5a61f94c302d3",
+      "sha256": "363febe67061db9d7bef2ec9bfcfc5683bb0144efc6fa2505337da5aa623b353",
+      "bytes": 164643
+    },
+    {
+      "path": "Assets/article6(covid19pestenoir)/covid19pestenoir5.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article6%28covid19pestenoir%29/covid19pestenoir5.jpg",
+      "git_blob_sha": "d2da8a979574498becb5b209628292e5f961f169",
+      "sha256": "72ccfddce917357dd06187269b4986e91638439f60a0c718d05e6e5fd78d56c6",
+      "bytes": 366796
+    },
+    {
+      "path": "Assets/article6(covid19pestenoir)/covid19pestenoir6.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article6%28covid19pestenoir%29/covid19pestenoir6.jpg",
+      "git_blob_sha": "3af012a78c212dedf4c7af07f417bc6ab5c16029",
+      "sha256": "692d07a99edbfa80788da99f72fa3a187b739b9e9af7291e8ad15349df14f649",
+      "bytes": 149832
+    },
+    {
+      "path": "Assets/article7(criseeconomique)/breakingnews.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article7%28criseeconomique%29/breakingnews.jpg",
+      "git_blob_sha": "db78385ed385c5d6f756b0e4241f49e1b9e3b73d",
+      "sha256": "8a319e251cf7980d158c0cb50aba43cdbfe03aa86fe98bc2f1cbf44d880c3c5c",
+      "bytes": 82965
+    },
+    {
+      "path": "Assets/article7(criseeconomique)/criseeconomique.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article7%28criseeconomique%29/criseeconomique.jpg",
+      "git_blob_sha": "dd3aa4db5f166e0b9f7167efacf8080d1fedb466",
+      "sha256": "43fa244be227d83579e000d465cefb4cc0e943ef592b5333d959461b4ea05343",
+      "bytes": 166628
+    },
+    {
+      "path": "Assets/article7(criseeconomique)/enjeuxDuPetrole.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article7%28criseeconomique%29/enjeuxDuPetrole.jpg",
+      "git_blob_sha": "1ec7460b86312fa1cfac9ff51d12686f939dc833",
+      "sha256": "c9190994d7baa336f17cfa0634c2b58dd88f2d5a0f5893724aa9cd6602a591b0",
+      "bytes": 141436
+    },
+    {
+      "path": "Assets/article7(criseeconomique)/sourceDeLinflation.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article7%28criseeconomique%29/sourceDeLinflation.jpg",
+      "git_blob_sha": "52f72dcc8196cf8385069bb7b84e55628228c8e8",
+      "sha256": "0cfc3790d43f9f4ca9d6eece8a3d73d583eb63f76c19e15f0ddc0cea901c0357",
+      "bytes": 317742
+    },
+    {
+      "path": "Assets/article7(criseeconomique)/worldeconomic.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article7%28criseeconomique%29/worldeconomic.jpg",
+      "git_blob_sha": "20a4bab00c4a3b34ad399c718902a74ae6fbd04f",
+      "sha256": "020c583a1e2473cf5c6dbc1349c1c8eb8c4a378032cd394dd5eb4dd7d92d5e2d",
+      "bytes": 37331
+    },
+    {
+      "path": "Assets/article8/beautifulHair.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/beautifulHair.jpg",
+      "git_blob_sha": "bbd1ae70f8bc8c6985dd5de30b8655c7c7f08883",
+      "sha256": "e8e8d009a373f545867e47736173124b3ff05ecf1d229da728bfe402e86fe535",
+      "bytes": 55457
+    },
+    {
+      "path": "Assets/article8/biotin.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/biotin.jpg",
+      "git_blob_sha": "dab0d74b9a80aa9f0bb32c7dda778facbc043933",
+      "sha256": "ce53e3ed4605e5981e8c1e6552f987d290c5a110a7214b8cac2b8b894be3f143",
+      "bytes": 111374
+    },
+    {
+      "path": "Assets/article8/micropigmentationCapillaire.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/micropigmentationCapillaire.jpg",
+      "git_blob_sha": "04c67983bf41d64e2e764715213422347f69f74d",
+      "sha256": "71110702669daf5fb318870989f725ecca01f0d6dca1b0e2faae0e0701050f4e",
+      "bytes": 80748
+    },
+    {
+      "path": "Assets/article8/micropigmentationCapillaire2.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/micropigmentationCapillaire2.png",
+      "git_blob_sha": "23ee06a730601e3dd8217285f8b2ecadb6210ac6",
+      "sha256": "b703b8e076f4b43dfddd6721953b889ed24bd50ef8a307fe202638ba69d0be84",
+      "bytes": 267346
+    },
+    {
+      "path": "Assets/article8/traitementPrp.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/traitementPrp.jpg",
+      "git_blob_sha": "b50a2857a00c977bd6fd4b8dab5f6c74429e6c67",
+      "sha256": "536d849b0a34ed90111600f307b4910bb8c3efe2a88be30dd7045008ecea3b70",
+      "bytes": 38839
+    },
+    {
+      "path": "Assets/article8/traitementPrpExemple.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article8/traitementPrpExemple.png",
+      "git_blob_sha": "fef524bf7cceef7e58fef1f6540385242ec678f6",
+      "sha256": "93955ee4642976cd9ae303819b8388ed902fd2a37543884052df321ae9c2e8c2",
+      "bytes": 407602
+    },
+    {
+      "path": "Assets/article9/beautifulHair.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/article9/beautifulHair.jpg",
+      "git_blob_sha": "bbd1ae70f8bc8c6985dd5de30b8655c7c7f08883",
+      "sha256": "e8e8d009a373f545867e47736173124b3ff05ecf1d229da728bfe402e86fe535",
+      "bytes": 55457
+    },
+    {
+      "path": "Assets/arts/beepleTheFirst5000Days.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/arts/beepleTheFirst5000Days.jpg",
+      "git_blob_sha": "949b8b3d3ccaef031df19f13e18c737f01489096",
+      "sha256": "aeeefd4f158bfb85a9cf547c2083553e7d616ff5bd1255607a520aca0ceb2e87",
+      "bytes": 5375989
+    },
+    {
+      "path": "Assets/arts/fewociousTheEverlastingBeautiful.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/arts/fewociousTheEverlastingBeautiful.jpg",
+      "git_blob_sha": "ec691c8d21c38ef52a2b47e1ca5d9072486b4f7e",
+      "sha256": "9420b6db4532882c59eee41c22ef4372e7d166e7904e2ea985507efa50a7cfc7",
+      "bytes": 129987
+    },
+    {
+      "path": "Assets/breakingnews.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/breakingnews.jpg",
+      "git_blob_sha": "db78385ed385c5d6f756b0e4241f49e1b9e3b73d",
+      "sha256": "8a319e251cf7980d158c0cb50aba43cdbfe03aa86fe98bc2f1cbf44d880c3c5c",
+      "bytes": 82965
+    },
+    {
+      "path": "Assets/contactMe/contactMe.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/contactMe/contactMe.jpg",
+      "git_blob_sha": "5c368b0a08390be068f83e9eeec5e83cfba29975",
+      "sha256": "61b2be1043958603f365bb40851c1c9afff831c7506c5c2bdaeab2a12c8b50c3",
+      "bytes": 52786
+    },
+    {
+      "path": "Assets/emannuelmarcoux.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/emannuelmarcoux.jpg",
+      "git_blob_sha": "ae224bf013900dec95f2cb15afa691e2191859d5",
+      "sha256": "8e7d6d7e6befbb1fe3cb5270eb54b0a7a4b56c3bc6e88a1e6762f65bd47b43fd",
+      "bytes": 302688
+    },
+    {
+      "path": "Assets/environment/regeneration.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/environment/regeneration.jpg",
+      "git_blob_sha": "acdb2c7e332f9621be1daa121ddfadcd3cdfa749",
+      "sha256": "81927b1745fb365307becbe272dbc063bc4b64884249b4b8963b0b6ab724b584",
+      "bytes": 122627
+    },
+    {
+      "path": "Assets/environnement.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/environnement.jpg",
+      "git_blob_sha": "3fa7b0495a2e3e422ed0d1b945de05490305b312",
+      "sha256": "1d226bd459a4a71dfc8572df59dc387bf3dff18bfe801f08869223bb4a8a2a4e",
+      "bytes": 1013629
+    },
+    {
+      "path": "Assets/eth1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/eth1.jpg",
+      "git_blob_sha": "b8d2d876af6d5bc79d104e27c3dddf28019dda74",
+      "sha256": "3f2b90d5232f8f56ad6b079eb98dec83f3d0b3cde408d56e3c175008e4d419da",
+      "bytes": 687109
+    },
+    {
+      "path": "Assets/featurePost/truthSocial1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/featurePost/truthSocial1.jpg",
+      "git_blob_sha": "ee8c833011aa5650c681cc0fcc4722a043446f68",
+      "sha256": "5587242e94752fa456d07ab70106295ae276b6912c3113a25874ce4ad8606331",
+      "bytes": 41889
+    },
+    {
+      "path": "Assets/financialcrisis.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/financialcrisis.png",
+      "git_blob_sha": "35a975b621857bac66d252d0b7cc3c62b19c0def",
+      "sha256": "195cd7b75e1f2ee07d9f68f10c4c7279df5866ad1565f4f76e5d2437d0737ce0",
+      "bytes": 978516
+    },
+    {
+      "path": "Assets/flashnews.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/flashnews.jpg",
+      "git_blob_sha": "ddc5cb9443e063fb5d1597d9fab516d9438f24ea",
+      "sha256": "9dde059cf83fe5dd1ff4de1238857dfe5c00d3a4cc2ec7add555ba5340e2f849",
+      "bytes": 8659
+    },
+    {
+      "path": "Assets/gasfeeseth.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/gasfeeseth.png",
+      "git_blob_sha": "2f5e5e5e72e0c405cf515a2f0e884b4843a8de5d",
+      "sha256": "b871e43554f08e5ea12ce0b86865df63e6ea8fee32cf73116e62a9cb72f2bb88",
+      "bytes": 11776
+    },
+    {
+      "path": "Assets/globaleconomicnews.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/globaleconomicnews.jpg",
+      "git_blob_sha": "ee1db724dbad56918b808f59d48375a4c2f87713",
+      "sha256": "3b3e03098802e21687baac4a960273d480c19fe1bef782b963b35e45178bd592",
+      "bytes": 254190
+    },
+    {
+      "path": "Assets/health.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/health.jpg",
+      "git_blob_sha": "c9f87bc09711d5e07a002a9b56a448e6b2a822e9",
+      "sha256": "ea1d9b647430bfd1684fa7c40f311ead4b5027d512882122ebe39dd1bdba982c",
+      "bytes": 72132
+    },
+    {
+      "path": "Assets/hockey/kentHugues.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/hockey/kentHugues.jpg",
+      "git_blob_sha": "ee584679fd40c7916a280031c0c5f7279f944c2d",
+      "sha256": "4513cf3dc005c29b65cc4b39400467f6304ad91f043fbb09a7c47bba4bf4ee49",
+      "bytes": 177362
+    },
+    {
+      "path": "Assets/interrogation2.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/interrogation2.jpg",
+      "git_blob_sha": "b87c44fbbc736349d080235023e1ae9293af4dfe",
+      "sha256": "242bdd7cff681695ad457e0e4091098dd57916069dc3d5e8419372aa758c19dd",
+      "bytes": 212904
+    },
+    {
+      "path": "Assets/kellycrosby.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/kellycrosby.jpg",
+      "git_blob_sha": "c42a5d6560996f615c55bf6fc5a1783b926d0a8f",
+      "sha256": "f924cd8fa6688b4e0f18ce1050ffb287f4e652628d3cd99d581afd69a11768df",
+      "bytes": 155285
+    },
+    {
+      "path": "Assets/linkedToIt/sleepWell1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/linkedToIt/sleepWell1.jpg",
+      "git_blob_sha": "ae9e29b7076d4a12ef1b8fdc9e6d900f94b596dc",
+      "sha256": "ce638ef74c3039e2357d502afb8fe5dccb3f0bc33bbd19b7c6b94fe33de5e700",
+      "bytes": 36414
+    },
+    {
+      "path": "Assets/louisbenoitdobson.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/louisbenoitdobson.jpg",
+      "git_blob_sha": "c3a6bd8aa054f38d7c70af9ca5d99e814196a4ed",
+      "sha256": "0cc34642b5a8b315f02c533c85fc3f32287d3429a4e8c923f3da939af046bf24",
+      "bytes": 461573
+    },
+    {
+      "path": "Assets/moi.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/moi.jpg",
+      "git_blob_sha": "88b486ee2b0fb1560795a1f9ba0f6536115b4d19",
+      "sha256": "bccfee9e3602ffd0310dfffb5a43a380710df067b37ea255dd5d46913bd4ba1b",
+      "bytes": 7337
+    },
+    {
+      "path": "Assets/moi2.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/moi2.jpg",
+      "git_blob_sha": "49c81262510db6104898071bcfff3e48ec0737b0",
+      "sha256": "2a236792829c1d8f605790b6b499f2d65f08fe29a8e3f1bac11a845a7149492d",
+      "bytes": 79544
+    },
+    {
+      "path": "Assets/montrealCanadien.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/montrealCanadien.jpg",
+      "git_blob_sha": "e96f0188cb23cec4b1ba81be9c42495b9ca4404d",
+      "sha256": "8cb20e66d30f9220f2e1463304a62b24a1c264c324d1ecc8b7e776ec0be88bd7",
+      "bytes": 85902
+    },
+    {
+      "path": "Assets/running.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/running.jpg",
+      "git_blob_sha": "ce9998f50fcdb6903b7b1f58ff959f6d40808dbc",
+      "sha256": "94ba95c81033b55891fba5aa696e12d0f9a5d4586fa46f792bdbb184ba442db6",
+      "bytes": 100790
+    },
+    {
+      "path": "Assets/slider/article6.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/article6.jpg",
+      "git_blob_sha": "25f1ab1726582290ac37f6d6d1432ce617c2e8bb",
+      "sha256": "16f8cc601bb79074258babf8059c55d1b3995368bfe0b2dbca66cc155c23076a",
+      "bytes": 141927
+    },
+    {
+      "path": "Assets/slider/beautifulHair.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/beautifulHair.jpg",
+      "git_blob_sha": "bbd1ae70f8bc8c6985dd5de30b8655c7c7f08883",
+      "sha256": "e8e8d009a373f545867e47736173124b3ff05ecf1d229da728bfe402e86fe535",
+      "bytes": 55457
+    },
+    {
+      "path": "Assets/slider/eth1.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/eth1.jpg",
+      "git_blob_sha": "aa5e8183af1ff36347b5f631d2b79bca16017771",
+      "sha256": "52bdff14b055a0506eaf1060ccc1bc5d821401ccf297dd558cb7d81038c1223d",
+      "bytes": 55142
+    },
+    {
+      "path": "Assets/slider/gasfeeseth.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/gasfeeseth.png",
+      "git_blob_sha": "2f5e5e5e72e0c405cf515a2f0e884b4843a8de5d",
+      "sha256": "b871e43554f08e5ea12ce0b86865df63e6ea8fee32cf73116e62a9cb72f2bb88",
+      "bytes": 11776
+    },
+    {
+      "path": "Assets/slider/img4.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/img4.jpg",
+      "git_blob_sha": "dd3aa4db5f166e0b9f7167efacf8080d1fedb466",
+      "sha256": "43fa244be227d83579e000d465cefb4cc0e943ef592b5333d959461b4ea05343",
+      "bytes": 166628
+    },
+    {
+      "path": "Assets/slider/img5.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/img5.jpg",
+      "git_blob_sha": "1eb418e6effbf58297045f4959b7972f5aee4beb",
+      "sha256": "abf11565d97815ec3745d198cabd3b9686937f0f8c7073923ee6dc146545731e",
+      "bytes": 70660
+    },
+    {
+      "path": "Assets/slider/img6.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/img6.jpg",
+      "git_blob_sha": "bd7f91d414ae985083233df47c2515af26808c64",
+      "sha256": "b9cdfaf7a2c380a2e7b5bbda05d61ffff011ba17678d4640e231663bf2d07de2",
+      "bytes": 15857
+    },
+    {
+      "path": "Assets/slider/montrealCanadien.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/montrealCanadien.jpg",
+      "git_blob_sha": "e96f0188cb23cec4b1ba81be9c42495b9ca4404d",
+      "sha256": "8cb20e66d30f9220f2e1463304a62b24a1c264c324d1ecc8b7e776ec0be88bd7",
+      "bytes": 85902
+    },
+    {
+      "path": "Assets/slider/theRealEstateBubbleMainPic.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/slider/theRealEstateBubbleMainPic.jpg",
+      "git_blob_sha": "a19f162984f000be102fe2e0fa1766e40ed58ca4",
+      "sha256": "b85d3a7a8fda65f81380eb5f7b38cabf15f7b9e628a098a35d37cfd295d1a82f",
+      "bytes": 187330
+    },
+    {
+      "path": "Assets/theRealEstateBubble/theRealEstateBubbleMainPic.jpg",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/theRealEstateBubble/theRealEstateBubbleMainPic.jpg",
+      "git_blob_sha": "a19f162984f000be102fe2e0fa1766e40ed58ca4",
+      "sha256": "b85d3a7a8fda65f81380eb5f7b38cabf15f7b9e628a098a35d37cfd295d1a82f",
+      "bytes": 187330
+    },
+    {
+      "path": "Assets/walk.png",
+      "source": "https://raw.githubusercontent.com/xanderbat1980/blog/20ccee967261fb92f374ad68cdfafa06427c912f/Assets/walk.png",
+      "git_blob_sha": "20a4bab00c4a3b34ad399c718902a74ae6fbd04f",
+      "sha256": "020c583a1e2473cf5c6dbc1349c1c8eb8c4a378032cd394dd5eb4dd7d92d5e2d",
+      "bytes": 37331
+    },
+    {
+      "path": "Assets/intro/anonymous.gif",
+      "source": "https://cdn.dribbble.com/users/4608589/screenshots/11193964/media/56cd268e128a273d275e3c8ec4376947.gif",
+      "source_reference": "style2.css at 20ccee967261fb92f374ad68cdfafa06427c912f",
+      "sha256": "102e8840f87035614b36d783618aba94ac7cf9bcbfed990b434e907d8d208dd2",
+      "bytes": 2227908
+    },
+    {
+      "path": "Assets/intro/page404.gif",
+      "source": "https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif",
+      "source_reference": "style.css at 20ccee967261fb92f374ad68cdfafa06427c912f",
+      "sha256": "354f63f88b57aceea4536df0c0cff0c3592aa46fe887ff910751fefc12f3e76c",
+      "bytes": 1373645
+    }
+  ],
+  "still_missing": [
+    "Assets/Trump/trumpcovid19.jpeg",
+    "Assets/article12/bodybuildingPlanDiet.png",
+    "Assets/article5/trumpFbiMaralago.jpg",
+    "Assets/article7(criseeconomique)/thirdWorldWar.jpg",
+    "Assets/comments/vanessa.jpg",
+    "Assets/featurePost/asteroidImpact.jpg",
+    "Assets/featurePost/chatGPT1.png",
+    "Assets/hockey/31.jpg",
+    "Assets/slider/img1.jpg",
+    "Assets/slider/img2.jpg",
+    "Assets/slider/img3.png",
+    "assets/breakingnews.jpg"
+  ],
+  "missing_background": "background.jpg"
+}

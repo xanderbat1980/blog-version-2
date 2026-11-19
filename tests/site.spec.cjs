@@ -52,7 +52,7 @@ test('navigation and articles are usable with JavaScript disabled', async ({ bro
   await page.goto(baseURL);
   await expect(page.getByRole('link', { name: 'Home', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-  await expect(page.locator('#loader')).toHaveCount(0);
+  await expect(page.locator('#loader')).toBeHidden();
   await page.goto(baseURL + 'search.html');
   await expect(page.locator('#search-results li')).toHaveCount(13);
   await context.close();
@@ -77,7 +77,8 @@ test('missing content is explicit and restored images load without changing mark
   await page.goto('index.html');
   await expect(page.locator('.missing-article-note')).toContainText('article indisponible');
   await expect(page.locator('a[href="article10.html"]')).toHaveCount(0);
-  await expect(page.locator('.missing-media').first()).toBeVisible();
+  await page.locator('#footer').scrollIntoViewIfNeeded();
+  await expect(page.getByText('Image indisponible : chatGPT1.png', { exact: true })).toBeVisible();
   // Simulate a supplied real file to verify the fallback does not permanently hide restored assets.
   await page.route('**/Assets/Trump/trump1.jpg', route => route.fulfill({
     contentType: 'image/png',
@@ -126,6 +127,7 @@ test('all pages have no serious or critical axe accessibility violations', async
   const violations = [];
   for (const file of pages) {
     await page.goto(encodeURIComponent(file));
+    await expect(page.locator('#loader')).toBeHidden({ timeout: 6000 });
     const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
     for (const issue of results.violations.filter(v => ['critical', 'serious'].includes(v.impact))) {
       violations.push({ file, id: issue.id, nodes: issue.nodes.map(n => n.target) });

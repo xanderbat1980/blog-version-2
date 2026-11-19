@@ -1,14 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
+@import url("vendor/google-fonts/fonts.css");
 
 /* root styling */
 
 :root {
   --light: #f8f9fa;
-  --secondary: #59636d;
+  --secondary: #adb5bd;
   --dark: #343a40;
-  --primary-color: #a92373;
+  --primary-color: #f15bb5;
   --secondary-color: #2ec4b6;
   --border: #e9ecef;
+  /* Preserve the original decorative palette; readable text has separate colors. */
+  --readable-secondary: #59636d;
+  --readable-primary: #a92373;
 }
 
 body {
@@ -43,11 +46,11 @@ p {
 }
 
 .text-light {
-  color: var(--primary-color);
+  color: var(--readable-primary);
 }
 
 .text-secondary {
-  color: var(--secondary);
+  color: var(--readable-secondary);
 }
 
 .text-dark {
@@ -55,8 +58,10 @@ p {
 }
 
 .text-primary {
-  color: var(--primary-color);
+  color: var(--readable-primary);
 }
+
+i.text-primary { color: var(--primary-color); }
 
 .bg-light {
   background-color: var(--light);
@@ -250,7 +255,7 @@ p {
 }
 
 .toggle-button:focus-visible {
-  outline: 3px solid var(--primary-color);
+  outline: 3px solid var(--readable-primary);
   outline-offset: 3px;
 }
 
@@ -529,7 +534,7 @@ float: left;
 }
 
 .four_zero_four_bg {
-  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  background-image: url(Assets/intro/page404.gif);
   height: 400px;
   background-position: center;
 }
@@ -543,9 +548,9 @@ float: left;
 }
 
 .link_404 {
-  color: #fff !important;
+  color: #102e0c !important;
   padding: 10px 20px;
-  background: #247023;
+  background: #39ac31;
   margin: 20px 0;
   display: inline-block;
 }
@@ -570,7 +575,7 @@ float: left;
 }
 
 .four_zero_four_bg_2 {
-  background-image: url(https://cdn.dribbble.com/users/4608589/screenshots/11193964/media/56cd268e128a273d275e3c8ec4376947.gif);
+  background-image: url(Assets/intro/anonymous.gif);
   height: 1000px;
   width: 1100px;
   background-position: center;
@@ -587,7 +592,7 @@ float: left;
 /* Shared layout and accessible fallbacks for the static Pages site. */
 [hidden] { display: none !important; }
 html { scroll-padding-top: 7rem; }
-body { color: var(--dark); overflow-wrap: anywhere; line-height: 1.6; }
+body { color: var(--dark); overflow-wrap: anywhere; line-height: normal; }
 img, video, iframe, svg { max-width: 100%; }
 img { height: auto; }
 iframe { display: block; margin-inline: auto; border: 0; }
@@ -617,7 +622,7 @@ table { max-width: 100%; }
 .form-control { min-width: 0; }
 .skip-link { position: fixed; left: 1rem; top: -10rem; padding: 0.75rem; background: white; color: #111; z-index: 200; }
 .skip-link:focus { top: 0.5rem; }
-:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--readable-primary); outline-offset: 3px; }
 [data-unavailable-link] { cursor: default; }
 [data-unavailable-link]:hover { color: inherit; }
 .site-notice { padding: 0.75rem 1rem; margin: 1rem auto; max-width: 1170px; background: var(--light); border-left: 4px solid var(--primary-color); text-indent: 0; font-size: 1rem; }
@@ -635,10 +640,10 @@ table { max-width: 100%; }
 .article-list li { margin-bottom: 1.5rem; }
 .article-list a { color: #8b1c60; text-decoration: underline; font-weight: bold; }
 .article-list p { margin-top: 0.25rem; }
-a:not(.nav-link):not(.nav-brand):not(.btn) { text-decoration: underline; text-underline-offset: 0.12em; }
+.content a, p a, .copyrights a, footer p a { text-decoration: underline; text-underline-offset: 0.12em; }
 .external-warning { font-size: 0.9em; }
 .search-controls { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.5rem; }
-.search-controls input { flex: 1 1 200px; min-width: 0; padding: 0.75rem; border: 1px solid var(--secondary); font: inherit; }
+.search-controls input { flex: 1 1 200px; min-width: 0; padding: 0.75rem; border: 1px solid var(--readable-secondary); font: inherit; }
 .swiper-container:not(.swiper-container-initialized) .swiper-wrapper { display: flex; overflow-x: auto; gap: 12px; }
 .swiper-container:not(.swiper-container-initialized) .swiper-slide { flex: 0 0 180px; }
 

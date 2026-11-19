@@ -2,9 +2,9 @@
 
 ## Périmètre et état de livraison
 
-Travail exclusivement dans `xanderbat1980/blog-version-2`, sur la branche locale `fix/issue-1-audit-pages`, à partir du commit `ba502d097ffd4fd971ea81f65779852fb6e294cf`. Le dépôt `xanderbat1980/blog` n’a été ni consulté ni modifié.
+Travail exclusivement dans `xanderbat1980/blog-version-2`, sur la branche locale `fix/issue-1-audit-pages`, à partir du commit `ba502d097ffd4fd971ea81f65779852fb6e294cf`. Le dépôt `xanderbat1980/blog` n’avait pas été consulté lors du premier audit. À la demande explicite du propriétaire sur la PR #2, il sert maintenant de référence **en lecture seule** pour la restauration visuelle ; il n’a jamais été modifié.
 
-Les problèmes ont été présentés au propriétaire avant toute modification. Les corrections, les tests et le texte de PR sont préparés localement. **Aucun push, aucune création de Pull Request, aucune fusion, aucune publication.** Ces actions attendent le feu vert final demandé par le propriétaire.
+Les problèmes ont été présentés au propriétaire avant toute modification. Les corrections ont été poussées après autorisation et la [PR #2](https://github.com/xanderbat1980/blog-version-2/pull/2) est ouverte. La restauration visuelle demandée dans son commentaire est documentée dans [VISUAL_RESTORATION.md](VISUAL_RESTORATION.md). **Aucune fusion et aucune activation de GitHub Pages.** Les constats et décisions du premier audit ci-dessous restent conservés comme historique ; le complément visuel décrit l’état actuel et les ressources récupérées.
 
 ## Problèmes constatés et traitement
 

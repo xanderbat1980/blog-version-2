@@ -1,4 +1,6 @@
-# Résultats de validation locale
+# Résultats historiques de la première validation locale
+
+Ce relevé décrit la livraison initiale du commit `66dc466`. La restauration visuelle, la récupération de ressources et les nouveaux tests de l’animation sont détaillés dans [VISUAL_RESTORATION.md](VISUAL_RESTORATION.md). Les captures actuelles ont été renouvelées après cette restauration.
 
 Branche : `fix/issue-1-audit-pages`. Base de conservation : `ba502d097ffd4fd971ea81f65779852fb6e294cf`.
 

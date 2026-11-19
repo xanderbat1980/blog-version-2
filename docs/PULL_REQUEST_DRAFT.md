@@ -1,70 +1,61 @@
-# Projet de Pull Request — non envoyée
-
-Ce fichier contient le titre et la description préparés. Il ne représente pas une Pull Request existante. Ne pousser la branche et ne créer la PR qu’après le feu vert final du propriétaire.
+# Description de la Pull Request #2 existante
 
 **Dépôt :** `xanderbat1980/blog-version-2`
-**Base :** `main`
-**Branche :** `fix/issue-1-audit-pages`
+
+**Branche :** `fix/issue-1-audit-pages` → `main`
+
+Cette description est mise à jour pour la PR existante, après autorisation du propriétaire. Aucune nouvelle PR, aucune fusion et aucune activation de GitHub Pages.
 
 ## Titre proposé
 
-Corriger la navigation, l’affichage et le SEO du blogue ; documenter les contenus manquants
+Restaurer l’apparence originale et l’animation Anonymous, avec les corrections techniques
 
 ## Description proposée
 
-La navigation du blogue dirigeait de nombreux liens vers des pages d’attente ou des chemins inexistants ; des balises HTML/CSS et viewport invalides perturbaient l’affichage et l’indexation. Cette modification répare la structure, rend les articles disponibles accessibles depuis un catalogue, des catégories et une recherche locale, et prépare un site statique pour le sous-chemin GitHub Pages `/blog-version-2/`.
+Cette modification corrige le blogue statique tout en rétablissant son identité visuelle : **palette originale, photos existantes, polices DM Sans/Poppins/Roboto et ouverture Anonymous avec fondu**. Elle répond à l’issue #1 et au [commentaire de restauration visuelle](https://github.com/xanderbat1980/blog-version-2/pull/2#issuecomment-7003981440).
 
-Les articles et références existants sont conservés. **Les images et l’article 10 manquants n’ont pas été recréés. Cette PR ne doit pas être présentée comme une restauration visuelle complète.**
+Le dépôt original `xanderbat1980/blog` est utilisé **uniquement en lecture seule**, au commit `20ccee967261fb92f374ad68cdfafa06427c912f`. Aucune page HTML d’origine n’est supprimée et aucun article ou visuel de remplacement n’est inventé.
 
-Référence : #1. L’issue reste ouverte pour le suivi des contenus et décisions manquants.
+### Restauration visuelle prioritaire
 
-### Corrections
+- Le **GIF Anonymous exact** utilisé dans `style2.css` à l’origine est désormais conservé localement. Sur `index.html` et `article5.html`, le masque apparaît, puis disparaît progressivement par un fondu CSS d’environ quatre secondes.
+- L’effet peut être passé au clavier et respecte `prefers-reduced-motion`, y compris un changement de préférence pendant l’ouverture. Sans JavaScript, en cas d’image indisponible ou si l’animation CSS ne se termine pas, le contenu reste accessible.
+- `style2.css` et `varLoader.js` sont rétablis dans des versions ciblées et robustes : aucun positionnement global incorrect des titres et aucun masquage du contenu des articles.
+- Rose `#f15bb5`, gris de palette `#adb5bd`, turquoise `#2ec4b6`, fonds, ombres, images arrondies, styles d’articles et transition du menu mobile restaurés ou conservés. Les textes et le focus gardent des contrastes lisibles, séparés de la palette décorative.
+- Les trois familles de polices originales et les deux GIF du thème sont servis localement, avec sources et empreintes ; les licences des polices sont incluses.
+- **79 images réelles** sont récupérées à leur chemin exact dans le dépôt original et vérifiées contre les SHA Git des blobs source. Les dimensions manquantes sont renseignées ; leurs noms ne signalent plus à tort une indisponibilité.
 
-- Navigation principale vers les pages disponibles, correction des chemins relatifs et fragments, suppression des fausses destinations pour les liens inconnus.
-- Catalogue de 13 pages éditoriales existantes, catégories par sujets présents et recherche locale par titre/description, avec liste complète disponible sans JavaScript.
-- Menu mobile utilisable au clavier, état accessible, touche Échap, repli sans JavaScript ; grille responsive et médias contenus dans la largeur disponible.
-- Réparation des fermetures et imbrications HTML, listes de navigation et identifiants ; un titre principal et une balise `<title>` par page.
-- Titres/descriptions distincts, langues adaptées, Open Graph, JSON-LD sans dates ni images inventées, URL canoniques et sitemap ; brouillons/démonstrations conservés en `noindex`.
-- Suppression de l’attente artificielle au chargement ; retrait de Masonry au profit de CSS, suppression de jQuery, scripts différés et chargement différé des images/iframes secondaires.
-- Swiper 11.2.10 et Font Awesome 5.15.2 distribués localement avec licences et empreintes ; contrôle de pause et réduction des animations respectée.
-- Champs de commentaires non fonctionnels désactivés et expliqués ; lien de contact `mailto:` utilisant l’adresse déjà présente.
-- Politique CSP pour les ressources réellement utilisées ; vrai `404.html` fonctionnel sur les chemins imbriqués du projet.
-- Contrôles locaux et workflow de validation produisant un artefact statique, sans déploiement ni autorisation d’écriture.
+Le rapport de comparaison et les preuves visuelles sont dans [`docs/VISUAL_RESTORATION.md`](https://github.com/xanderbat1980/blog-version-2/blob/fix/issue-1-audit-pages/docs/VISUAL_RESTORATION.md). Il inclut des enregistrements du fondu sur mobile et ordinateur, car une capture statique ne suffit pas à vérifier cet effet.
 
-### Conservation et nettoyage justifié
+### Corrections techniques conservées
 
-- Aucune page HTML d’origine supprimée ; les 23 pages restent présentes.
-- Normalisation HTML5 nécessaire pour les nombreuses structures mal fermées ; le diff est étendu. Le contrôle de conservation compare le contenu visible, les images et les liens HTTPS au commit initial `ba502d097ffd4fd971ea81f65779852fb6e294cf`.
-- `style2.css` et `varLoader.js` supprimés après retrait de toutes leurs références actives : ils servaient uniquement au loader bloquant et à son fond absent.
-- Bloc d’animation Deadline dupliqué/corrompu retiré de la feuille globale ; animation conservée dans sa feuille dédiée et son script natif.
-- Ancien PHP de contact invalide conservé comme archive exacte dans `docs/legacy/emailResponse.php.txt`, sans exposition dans l’artefact public.
-- Aucun doublon de fichier strictement identique identifié ; aucune suppression de contenu fondée sur une ressemblance supposée.
+- Navigation vers les pages disponibles, chemins et fragments compatibles avec le sous-chemin `/blog-version-2/`, lien de contact utilisant l’adresse déjà présente ; destinations inconnues explicitement désactivées.
+- Catalogue de 13 pages éditoriales existantes, catégories par sujets présents et recherche locale avec liste complète utilisable sans JavaScript.
+- Menu mobile au clavier, état accessible, Échap, repli sans JavaScript ; grille responsive et médias contenus dans la largeur disponible.
+- Réparation HTML5, listes de navigation valides, identifiants uniques, un titre principal et une balise `<title>` par page.
+- Titres et descriptions distincts, langues adaptées, Open Graph, JSON-LD sans données inventées, URL canoniques et sitemap ; brouillons/démonstrations conservés en `noindex`.
+- Grille CSS, scripts différés, images/iframes secondaires différées ; Swiper local et contrôles de pause ; animation Deadline sans jQuery.
+- CSP, licences et contrôles d’intégrité des dépendances ; vraie page 404 sur les chemins imbriqués du projet.
+- Formulaires de commentaires sans service d’envoi désactivés et expliqués ; ancien PHP invalide conservé comme archive exacte, exclue de l’artefact public.
+- Workflow de validation et artefact statique sans déploiement ni autorisation d’écriture.
 
-### Limites qui demandent des contenus ou une décision
+### Contenus encore manquants
 
-- 91 chemins d’images absents, utilisés 342 fois, et un emplacement vide ; inventaire complet dans `docs/missing-assets.json`. Les chemins sont conservés, les images non disponibles signalées sans description visuelle inventée.
-- `article10.html` absent ; lien explicitement désactivé, aucun article substitué.
-- Destinations sociales et certaines rubriques inconnues ; aucun compte ou service externe supposé. Les commentaires nécessitent une solution réelle avant réactivation.
-- Pages de démonstration, Lorem Ipsum, compteurs et commentaires anciens conservés pour décision éditoriale.
-- Audit de 50 liens externes : 38 accessibles, une source HTTP 410 signalée, 11 résultats non concluants. Les références sont conservées ; les vidéos et GIF externes nécessitent une vérification depuis un navigateur autorisé.
-- Adresse future supposée : `https://xanderbat1980.github.io/blog-version-2/`. Aucun domaine ni réglage Pages ou Search Console modifié.
+- **12 chemins d’images, 19 références**, plus un emplacement sans adresse : [`docs/missing-assets.json`](https://github.com/xanderbat1980/blog-version-2/blob/fix/issue-1-audit-pages/docs/missing-assets.json).
+- `background.jpg` absent aussi dans la référence originale : fond blanc de repli, sans fond inventé.
+- `article10.html` absent : aucune page substituée et lien explicitement marqué indisponible.
+- Profils sociaux, certaines rubriques et envoi de commentaires encore non configurés ; fragments de démonstration et compteurs anciens conservés pour décision éditoriale.
+- Les textes alternatifs des images récupérées utilisent les noms des fichiers ; une révision éditoriale reste utile pour décrire fidèlement les illustrations complexes.
+- Le contrôle historique de 50 sources externes a donné 38 réponses accessibles, une réponse 410 et 11 résultats non concluants. Les références sont conservées ; les vidéos distantes restent à vérifier séparément.
 
-### Vérifications à consulter
+### Vérifications
 
-Résultat local : **11 tests de navigateur réussis**, couvrant les 27 pages à trois largeurs et les scénarios fonctionnels. Les contrôles statiques et de conservation du contenu passent. Détails et captures dans `docs/VALIDATION.md`.
+- Suite Playwright : **17 tests réussis**, dont apparition effective du masque, mesures d’opacité depuis le début de l’animation, étape intermédiaire puis disparition à 390 et 1 440 px ; passage au clavier ; réduction des mouvements ; script ou image indisponibles ; chargement réel des trois polices et des photos.
+- Tests existants maintenus : 27 pages à 390, 768 et 1 440 px, absence de débordement horizontal et d’erreur JavaScript, navigation avec/sans JS, recherche, contenus manquants, carrousels, Deadline, 404 imbriquée et contrôle axe des violations sérieuses/critiques détectables automatiquement.
+- Contrôles statiques des liens, fragments, métadonnées, sitemap, ressources CSS, inventaire des manquants et empreintes des ressources restaurées.
+- Conservation des mots visibles, références d’images et liens HTTPS des 23 pages initiales ; parsing HTML5 ; syntaxe des scripts et CSS ; `git diff --check`.
+- Le contrôle strict des ressources reste en **échec attendu** tant que les contenus documentés manquent.
 
-- `npm run check` : liens/fragments, métadonnées, sitemap, ressources CSS, manquants recensés et empreintes des dépendances.
-- `npm run test:content` : conservation des 23 pages d’origine et parsing HTML5.
-- `npm test` : affichage des 27 pages sur trois largeurs, menu clavier/sans JavaScript, recherche, contenus manquants, restauration d’image, carrousel/Deadline et pause, réduction des mouvements, 404 imbriquée et contrôles axe.
-- `node --check` sur les deux scripts ; parsing CSS récursif ; `git diff --check`.
-- `npm audit` : aucun problème signalé pour les packages npm contrôlés ; dépendances du navigateur recensées séparément dans `docs/THIRD_PARTY.md`.
-- `python3 scripts/build_site.py` : artefact public local `_site/`, excluant les outils et archives.
-- `npm run check:assets` : **échec attendu** tant que les images documentées n’ont pas été fournies.
+Le rapport initial est dans `docs/AUDIT.md` et son complément visuel dans `docs/VISUAL_RESTORATION.md`. Les tests sont effectués avec les ressources externes bloquées : ils ne certifient pas la disponibilité des vidéos distantes, la conformité WCAG complète, un score Lighthouse ou l’indexation effective par Google.
 
-Le rapport détaillé est dans `docs/AUDIT.md`. Les tests de navigateur sont exécutés avec les ressources externes bloquées ; ils ne valident pas les vidéos distantes, l’apparence avec les images absentes, un score Lighthouse ou l’indexation effective par Google.
-
-### Points de revue
-
-Examiner la navigation et le classement des sujets, l’apparence générale et les modifications de contraste, les notes sur les contenus manquants, la mise hors service explicite des commentaires non configurés et l’URL de publication envisagée. Restaurer les fichiers réels avant une validation visuelle complète.
-
-**Aucune fusion automatique et aucun déploiement ne sont demandés par cette modification. Le dépôt original `xanderbat1980/blog` reste hors périmètre.**
+**PR #2 uniquement. Ne pas fusionner, ne pas activer GitHub Pages et ne pas modifier le dépôt original `xanderbat1980/blog`.**

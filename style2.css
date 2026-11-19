@@ -1,0 +1,39 @@
+/* Original Anonymous opening, scoped so article headings/layout stay accessible. */
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  pointer-events: none;
+}
+.intro-overlay img {
+  display: block;
+  width: min(800px, 100vw);
+  height: auto;
+  max-height: 100svh;
+  object-fit: contain;
+  border-radius: 0;
+}
+.intro-overlay.intro-running { animation: anonymous-opening 4s linear both; }
+.intro-skip {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.6rem 1rem;
+  border: 2px solid #343a40;
+  border-radius: 4px;
+  background: #fff;
+  color: #343a40;
+  font: inherit;
+  cursor: pointer;
+  pointer-events: auto;
+}
+@keyframes anonymous-opening {
+  0%, 10% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-overlay { display: none !important; animation: none !important; }
+}

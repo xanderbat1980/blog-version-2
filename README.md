@@ -2,20 +2,21 @@
 
 Travail limité à **`xanderbat1980/blog-version-2`**, pour l’[issue #1](https://github.com/xanderbat1980/blog-version-2/issues/1).
 
-La branche `fix/issue-1-audit-pages` contient les corrections locales. Aucun push, aucune Pull Request, aucune fusion et aucune publication ne sont autorisés sans le feu vert final du propriétaire.
+La branche `fix/issue-1-audit-pages` alimente la [Pull Request #2](https://github.com/xanderbat1980/blog-version-2/pull/2). Sa mise à jour est autorisée ; aucune fusion ni activation de GitHub Pages ne sont autorisées. Le dépôt original sert uniquement de référence en lecture seule pour la restauration visuelle.
 
 Le site reste statique : aucun serveur PHP, aucune compilation JavaScript et aucun service de collecte ne sont nécessaires pour le consulter.
 
 ## État et documents
 
 - [Rapport d’audit et de corrections](docs/AUDIT.md)
-- [Résultats des vérifications et captures](docs/VALIDATION.md)
+- [Restauration visuelle et tests de l’animation Anonymous](docs/VISUAL_RESTORATION.md)
+- [Résultats historiques de la première vérification](docs/VALIDATION.md)
 - [Inventaire des images manquantes](docs/missing-assets.json)
 - [Contrôle des sources externes](docs/external-links.json)
 - [Titre et description de PR préparés](docs/PULL_REQUEST_DRAFT.md)
 - [Bibliothèques et licences](docs/THIRD_PARTY.md)
 
-**Contenu manquant : 91 chemins d’images, 342 références, un emplacement sans adresse et le fichier `article10.html`.** Aucun visuel ni article de remplacement n’a été créé. Les liens sociaux inconnus et l’envoi de commentaires restent explicitement non configurés.
+**79 images ont été récupérées à leur chemin exact dans le dépôt original, ainsi que les deux GIF déjà utilisés par son thème.** Il reste **12 chemins d’images absents (19 références), un emplacement sans adresse, `background.jpg` et le fichier `article10.html`**. Aucun visuel ni article de remplacement n’a été inventé. L’animation Anonymous d’origine est restaurée sur l’accueil et `article5.html`, avec un fondu de quatre secondes, une commande pour la passer et le respect de la réduction des mouvements. Les liens sociaux inconnus et l’envoi de commentaires restent explicitement non configurés.
 
 ## Vérifier localement
 

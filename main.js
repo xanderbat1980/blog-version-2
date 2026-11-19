@@ -6,13 +6,30 @@
   if (toggle) {
     const panels = [...header.querySelectorAll('.collapse')];
     const mobile = window.matchMedia('(max-width: 574px)');
-    const updateMenu = (expanded = false) => {
+    let menuAnimations = [];
+    const updateMenu = (expanded = false, animate = false) => {
+      menuAnimations.forEach(animation => animation.cancel());
+      menuAnimations = [];
       toggle.setAttribute('aria-expanded', String(expanded));
-      panels.forEach(panel => { panel.hidden = mobile.matches && !expanded; });
+      const hide = mobile.matches && !expanded;
+      panels.forEach(panel => {
+        panel.inert = hide;
+        if (!animate || !mobile.matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          panel.hidden = hide;
+          return;
+        }
+        panel.hidden = false;
+        const frames = [{ opacity: 0, transform: 'translateY(-0.5rem)' }, { opacity: 1, transform: 'translateY(0)' }];
+        const animation = panel.animate(hide ? frames.slice().reverse() : frames, {
+          duration: 800, easing: 'cubic-bezier(0.51, -0.15, 0, 0.98)'
+        });
+        menuAnimations.push(animation);
+        animation.finished.then(() => { panel.hidden = hide; }).catch(() => {});
+      });
     };
     header.dataset.navReady = '';
     updateMenu();
-    toggle.addEventListener('click', () => updateMenu(toggle.getAttribute('aria-expanded') !== 'true'));
+    toggle.addEventListener('click', () => updateMenu(toggle.getAttribute('aria-expanded') !== 'true', true));
     header.addEventListener('keydown', event => {
       if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
         updateMenu();
